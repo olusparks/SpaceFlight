@@ -1,0 +1,27 @@
+01:06:02 AM	Deploying Plugins
+01:06:02 AM	Searching for plugin config in 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Plugin\spkl\..'
+01:06:02 AM	Using Config 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Plugin'
+01:06:02 AM	Checking assembly 'Plugin.dll' for plugins
+01:06:02 AM	1 plugin(s) found!
+01:06:10 AM	Registering Plugin 'Plugin' from 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Plugin\bin\Debug\Plugin.dll'
+01:06:18 AM	Registering Type 'Plugin.AcountPlugin'
+01:06:28 AM	Registering Step 'Post-Update Account'
+01:06:32 AM	Processed 1 config(s)
+01:11:29 AM	Deploying Plugins
+01:11:29 AM	Searching for plugin config in 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Plugin\spkl\..'
+01:11:29 AM	Using Config 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Plugin'
+01:11:29 AM	Checking assembly 'Plugin.dll' for plugins
+01:11:29 AM	1 plugin(s) found!
+01:11:36 AM	Updating Plugin 'Plugin' from 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Plugin\bin\Debug\Plugin.dll'
+01:11:39 AM	Updating Type 'Plugin.AcountPlugin'
+01:11:42 AM	Registering Step 'Post-Update Account'
+01:11:45 AM	Processed 1 config(s)
+01:25:51 AM	Deploying Plugins
+01:25:51 AM	Searching for plugin config in 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Plugin\spkl\..'
+01:25:51 AM	Using Config 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Plugin'
+01:25:51 AM	Checking assembly 'Plugin.dll' for plugins
+01:25:51 AM	1 plugin(s) found!
+01:25:58 AM	Updating Plugin 'Plugin' from 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Plugin\bin\Debug\Plugin.dll'
+01:26:01 AM	Updating Type 'Plugin.AcountPlugin'
+01:26:04 AM	Registering Step 'Pre-Update Account'
+01:26:09 AM	Processed 1 config(s)
