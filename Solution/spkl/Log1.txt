@@ -1,0 +1,10 @@
+03:19:29 PM	Unpacking solution
+03:19:29 PM	Searching for packager config in 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\spkl\..'
+03:19:29 PM	Using Config 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution'
+03:22:06 PM	Unpacking solution
+03:22:06 PM	Searching for packager config in 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\spkl\..'
+03:22:06 PM	Using Config 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution'
+03:23:14 PM	Target C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\packages\spkl.1.0.226\tools
+03:23:14 PM	Map xml created at 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\packages\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\packager_map.xml'
+03:23:14 PM	Running C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\packages\spkl.1.0.226\tools\..\..\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\SolutionPackager.exe /action:Extract /zipfile:"C:\Users\Bantale Babajide\AppData\Local\Temp\tmp8DDE.tmp" /folder:"C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package" /packagetype:unmanaged /allowWrite:Yes /allowDelete:Yes /clobber /errorlevel:Verbose /nologo /log:packagerlog.txt /map:packager_map.xml
+03:23:21 PM	Processed 1 config(s)

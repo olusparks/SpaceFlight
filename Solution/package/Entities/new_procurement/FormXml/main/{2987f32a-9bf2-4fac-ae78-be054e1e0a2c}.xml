@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{2987f32a-9bf2-4fac-ae78-be054e1e0a2c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{81299692-773d-484d-9a6e-7791c2d57e0e}" IsUserDefined="1" name="{81299692-773d-484d-9a6e-7791c2d57e0e}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ef14aa09-31f3-40bc-afd2-69280b5fc874}" name="{ef14aa09-31f3-40bc-afd2-69280b5fc874}" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{db708830-39d3-8cca-6a6b-09c148e70b0c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Procurement Number" languagecode="1033" />
+                        </labels>
+                        <control id="new_procurementnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_procurementnumber" disabled="true" uniqueid="{ce4a6c74-a9d3-91d8-e328-cc464537943a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b392721a-fae5-4fb2-a49f-2210bea99a6b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" uniqueid="{d7362e8b-c7b7-5d87-d5d9-5241b6a85b69}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{489c9490-a98b-b8d2-c4b7-09309e725485}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Account Manager" languagecode="1033" />
+                        </labels>
+                        <control id="new_accountmanager" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_accountmanager" disabled="false" uniqueid="{9d2c3c19-b386-b48d-d351-e29e43a5ae15}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1685b9d6-b0e0-1b22-6daa-7d27e933316e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Use Master Vendor" languagecode="1033" />
+                        </labels>
+                        <control id="new_usemastervendor" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="new_usemastervendor" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c5be181c-153b-b539-566a-35433695bd69}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Vendor" languagecode="1033" />
+                        </labels>
+                        <control id="new_vendoraccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_vendoraccount" disabled="false" uniqueid="{762572cd-6721-c3d6-8b96-c02d704a85c4}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CBE2BFD8-3D56-E411-80CA-00155DB9B402}</DefaultViewId>
+                            <AvailableViewIds>{CBE2BFD8-3D56-E411-80CA-00155DB9B402}</AvailableViewIds>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{66b3bae8-88a6-7ca9-76e0-946eeb7c6836}" showlabel="true" locklevel="0" rowspan="3">
+                        <labels>
+                          <label description="Other Remarks" languagecode="1033" />
+                        </labels>
+                        <control id="new_otherremarks" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="new_otherremarks" disabled="false" uniqueid="{7c6dac5e-e558-b839-802c-0ca7a77e42a8}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{b897df94-f77d-4cdd-9fdd-702efda3267f}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{bba7b539-a92a-0bb2-ea39-281e60a63645}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{81299692-773d-484d-9a6e-7791c2d57e0e}_section_4" showlabel="true" showbar="false" locklevel="0" id="{306841d5-5804-0271-3b93-394b6289de97}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="APPROVAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{386dedbc-4e2c-7958-3493-6bee7cc9677b}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Approval Means" languagecode="1033" />
+                        </labels>
+                        <control id="new_meansofapproval" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="new_meansofapproval" disabled="false" uniqueid="{8be529c6-e1a2-6499-285d-97c190b60d14}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{954cc7eb-6738-4868-9e02-d6e460d5046b}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Value" languagecode="1033" />
+                        </labels>
+                        <control id="new_paymentvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_paymentvalue" disabled="false" uniqueid="{097b4d90-37be-61db-48c5-521bd90592d5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50763132-05a7-2935-c63d-9365caa9394b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Approval Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_meansofapprovaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="new_meansofapprovaldate" disabled="false" uniqueid="{dcec8263-0adc-7640-1c66-8b60b0783a41}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc487370-92a2-b6ec-e354-55d1594acc7b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Expected Delivery Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_expecteddeliverydate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="new_expecteddeliverydate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{22b5a43e-cc6e-9640-357c-21e56229aa27}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Delivery Days" languagecode="1033" />
+                        </labels>
+                        <control id="new_deliverydays" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="new_deliverydays" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6391651b-938a-a231-7966-ee3a30a07084}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Selected Means of Approval" languagecode="1033" />
+                        </labels>
+                        <control id="new_selectedmeansofapproval" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_selectedmeansofapproval" disabled="false" uniqueid="{d31cbddc-8ded-4480-a692-a3640c554504}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="{81299692-773d-484d-9a6e-7791c2d57e0e}_section_2" showlabel="false" showbar="false" locklevel="0" id="{3b7210d0-5561-6c62-2d53-c3a114bd8c0d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="NOTES" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{056dd135-ed56-ab8e-a61c-a2139212e222}" showlabel="false" rowspan="15" auto="false" colspan="1" locklevel="0">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{976825b6-c6ae-17c7-a498-7eedb6623b84}" disabled="false">
+                          <parameters>
+                            <UClientUniqueName>Timeline</UClientUniqueName>
+                            <UClientModules>Activities,Notes</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>true</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>10</UClientRecordPerPage>
+                            <UClientSortActivitiesByValue>modifiedon</UClientSortActivitiesByValue>
+                            <UClientDisplayActivityHeaderUsing>defaultformat</UClientDisplayActivityHeaderUsing>
+                            <UClientCreateActivityUsing>quickcreateform</UClientCreateActivityUsing>
+                            <UClientDisplayActivityUsing>defaultfields</UClientDisplayActivityUsing>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                            <OrderByActivityWall>descending</OrderByActivityWall>
+                            <SortActivityWall>modifiedon</SortActivityWall>
+                            <EmailConversationView>true</EmailConversationView>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="{81299692-773d-484d-9a6e-7791c2d57e0e}_section_3" showlabel="true" showbar="false" locklevel="0" id="{d22509d1-c26a-bb24-abb7-e7b4738b6978}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="SALES INFORMATION" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{44ea1681-e49c-2a96-c8e9-3d90aa29d055}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Quote" languagecode="1033" />
+                        </labels>
+                        <control id="new_quote" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_quote" disabled="false" uniqueid="{59cebc84-a701-18b1-1548-283b03a1c2db}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{30969771-F303-4B8E-AE91-1E4F5A7FEEFB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a41213d2-8881-9b11-4968-5ba73c99476b}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="new_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_account" disabled="false" uniqueid="{71de3cc2-73e7-c15b-a1cd-7218208181ee}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05eba729-1e4d-3a7d-106a-d6ccca176910}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact Person" languagecode="1033" />
+                        </labels>
+                        <control id="new_contactperson" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_contactperson" disabled="false" uniqueid="{e12936bb-3287-3642-5095-1665ec1993ba}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50b99271-c1d7-9bdd-1ecd-11986450581a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Payment Status" languagecode="1033" />
+                        </labels>
+                        <control id="new_paymentstatuss" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="new_paymentstatuss" disabled="false" uniqueid="{6e630e7c-10a6-0c20-9e62-13a2b6b94b5d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eb200d5e-1446-2972-d4e7-b3b93c8d52d6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Procurement Status" languagecode="1033" />
+                        </labels>
+                        <control id="new_procurementstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="new_procurementstatus" disabled="false" uniqueid="{05378199-66d3-402b-49b6-37424b042218}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{102b89d4-c093-43a2-433a-b8a574986941}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" disabled="false" uniqueid="{d67653ab-546d-1932-79ac-6706551625a2}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD5625B0-DDA8-4EE2-B13F-B9331E027C8A}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e2086078-4737-89a9-1bd7-5687ed8c4450}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="recordid" languagecode="1033" />
+                        </labels>
+                        <control id="new_recordid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_recordid" disabled="false" uniqueid="{b45cbd78-0e73-cd03-76d3-32b346a17d1e}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{db776978-cd38-d508-37a9-3ab397715b71}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Implementation" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_3_sect_executionteam" showlabel="false" showbar="false" locklevel="0" id="{0792cbd4-0836-ae58-cda6-5448e235289a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Execution Team" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ec1473a0-3278-a681-3c37-b722e1cb6a3a}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Execution Teams" languagecode="1033" />
+                        </labels>
+                        <control id="grid_executionteam" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{a32851c3-b36c-6728-2673-c16c7b95387c}">
+                          <parameters>
+                            <ViewId>{B970565F-A501-40AD-8DDD-67E4742327C8}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>new_new_procurement_new_executionteam</RelationshipName>
+                            <TargetEntityType>new_executionteam</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B970565F-A501-40AD-8DDD-67E4742327C8}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F5F5F5</HeaderColorCode>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="{81299692-773d-484d-9a6e-7791c2d57e0e}_section_6" showlabel="false" showbar="false" locklevel="0" id="{90a1bac7-41ca-16c8-9c5a-61cab4a1925d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Internal Stakeholder" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{05e73b79-6d14-d6e7-4829-c6ca5aeecb95}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Internal Stakeholder" languagecode="1033" />
+                        </labels>
+                        <control id="grid_internalstakholder" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{388e782c-b953-0a1b-aae2-e623914b26aa}">
+                          <parameters>
+                            <ViewId>{00000000-0000-0000-00AA-000010001019}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>new_new_procurement_systemuser</RelationshipName>
+                            <TargetEntityType>systemuser</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{00000000-0000-0000-00AA-000010001019}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{9249D1C3-26C3-E711-8124-70106FA5DD11}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F5F5F5</HeaderColorCode>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{7aa64710-9008-ebd6-0e73-d66c95ae7742}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Procurement Line" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{c094e29e-4c90-0337-c948-096637187b10}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" height="auto" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Procurement Line" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{761a4665-4c65-a663-bc73-74ad79c59488}" showlabel="false" colspan="1" auto="true" rowspan="4">
+                        <labels>
+                          <label description="Procurement Lines (Procurement)" languagecode="1033" />
+                        </labels>
+                        <control id="grid_procurementlines" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{0eb0411c-de02-2aed-64bd-1e14eee7316c}">
+                          <parameters>
+                            <ViewId>{4E77EEE5-0C15-45D5-8D47-BE7649E113FE}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>new_new_procurement_new_procurementline</RelationshipName>
+                            <TargetEntityType>new_procurementline</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{4E77EEE5-0C15-45D5-8D47-BE7649E113FE}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F5F5F5</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+                <section name="tab_2_section_2" showlabel="false" showbar="false" locklevel="0" id="{c2b29a86-3c29-44ad-d1be-8e131714a34e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Total" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{63b3ecca-dcde-3e73-ab18-3bad3649510d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Buying" languagecode="1033" />
+                        </labels>
+                        <control id="new_totalbuying" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_totalbuying" disabled="false" uniqueid="{5036350d-1ea6-6120-d79e-326bd9d23c20}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9b1bdcec-707a-d292-388b-c0e243889ba3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Selling" languagecode="1033" />
+                        </labels>
+                        <control id="new_totalselling" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_totalselling" disabled="false" uniqueid="{3143bdbe-3b6e-068c-9b28-24ebc8e494de}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{62937689-547e-006b-9831-24573073e922}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Margin" languagecode="1033" />
+                        </labels>
+                        <control id="new_margin" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_margin" disabled="false" uniqueid="{c254c3e2-932e-0502-3ee3-6d6c34a74a53}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{f8df9794-6b39-4977-9da4-573c59ccc148}" columns="111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" availableforphone="false">
+        <rows>
+          <row>
+            <cell id="{b2c34724-eec0-1157-db5e-458dbb96e228}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Procurement Status" languagecode="1033" />
+              </labels>
+              <control id="header_new_procurementstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="new_procurementstatus" disabled="false" uniqueid="{647c57c0-b2d9-82e5-9231-2418ba513772}" />
+            </cell>
+            <cell id="{9131e3c3-a1d4-0e01-8e8b-dde8cb46dcec}" showlabel="true" locklevel="0" availableforphone="false">
+              <labels>
+                <label description="Procurement Number" languagecode="1033" />
+              </labels>
+              <control id="header_new_procurementnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_procurementnumber" disabled="true" uniqueid="{50e2a54b-4535-ece6-2e70-13d4a451e3d0}" />
+            </cell>
+            <cell id="{95472954-8a48-bb00-6ced-10c42a704a0d}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" uniqueid="{16b565d0-4c0c-259e-b2b6-8e7381a99adb}" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{02e54267-e0f4-45d1-8544-ab614be2198c}" columns="111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" availableforphone="false">
+        <rows>
+          <row>
+            <cell id="{240f8500-86a9-49cd-823b-c55ca317e051}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{03687560-994a-0bc0-50a7-7345cdd59036}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="NAV Status" languagecode="1033" />
+              </labels>
+              <control id="footer_new_navstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="new_navstatus" disabled="true" uniqueid="{538a5928-76d6-0cdb-bb99-bb74e0cd6b9c}" />
+            </cell>
+            <cell id="{d440dc2b-7510-3578-9347-77e271dc8b22}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+              </labels>
+              <control id="footer_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="true" uniqueid="{3187d370-230a-c0cb-9cb2-0380ba122e63}" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Sequence="8501" Area="Info" Id="navAudit">
+            <Titles>
+              <Title LCID="1033" Text="Audit History" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Sequence="8502" Area="Info" Id="navConnections" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Connections" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Sequence="9501" Area="ProcessCenter" Id="navProcessSessions">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="new_new_procurement_systemuser" Id="nav_new_new_procurement_systemuser" Show="true" Sequence="10001" Area="Info">
+            <Titles>
+              <Title LCID="1033" Text="Users" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="new_new_procurement_new_executionteam" Id="nav_new_new_procurement_new_executionteam" Show="true" Sequence="10002" Area="Info">
+            <Titles>
+              <Title LCID="1033" Text="Execution Teams" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{0eb0411c-de02-2aed-64bd-1e14eee7316c}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+            <parameters>
+              <ViewId>{4E77EEE5-0C15-45D5-8D47-BE7649E113FE}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>new_new_procurement_new_procurementline</RelationshipName>
+              <TargetEntityType>new_procurementline</TargetEntityType>
+              <AutoExpand>Auto</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{4E77EEE5-0C15-45D5-8D47-BE7649E113FE}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>All</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>true</EnableChartPicker>
+              <RecordsPerPage>4</RecordsPerPage>
+              <HeaderColorCode>#F5F5F5</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="1">
+            <parameters>
+              <ViewId>{4E77EEE5-0C15-45D5-8D47-BE7649E113FE}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>new_new_procurement_new_procurementline</RelationshipName>
+              <TargetEntityType>new_procurementline</TargetEntityType>
+              <AutoExpand>Auto</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{4E77EEE5-0C15-45D5-8D47-BE7649E113FE}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>All</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>true</EnableChartPicker>
+              <RecordsPerPage>4</RecordsPerPage>
+              <HeaderColorCode>#F5F5F5</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{4E77EEE5-0C15-45D5-8D47-BE7649E113FE}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>new_new_procurement_new_procurementline</RelationshipName>
+                <TargetEntityType>new_procurementline</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{4E77EEE5-0C15-45D5-8D47-BE7649E113FE}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <formparameters>
+        <querystringparameter name="customer_id" type="UniqueId" />
+        <querystringparameter name="customer_idname" type="SafeString" />
+        <querystringparameter name="customer_idtype" type="SafeString" />
+        <querystringparameter name="contactName_type" type="SafeString" />
+        <querystringparameter name="quote_id" type="UniqueId" />
+        <querystringparameter name="quoteName_1" type="SafeString" />
+        <querystringparameter name="contact_id" type="UniqueId" />
+        <querystringparameter name="contactName_1" type="SafeString" />
+        <querystringparameter name="owner_id" type="UniqueId" />
+        <querystringparameter name="ownerName_1" type="SafeString" />
+        <querystringparameter name="ownerEntity_type" type="SafeString" />
+        <querystringparameter name="currency_id" type="UniqueId" />
+        <querystringparameter name="currency_idname" type="SafeString" />
+        <querystringparameter name="currency_idtype" type="SafeString" />
+      </formparameters>
+      <formLibraries>
+        <Library name="new_RelianceScripts" libraryUniqueId="{1cb440c1-d7a2-61ba-1cce-beaece73356b}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="LoadValueProcurementForm" libraryName="new_RelianceScripts" handlerUniqueId="{9012ddb4-caed-5682-9576-a4cad3dec108}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler functionName="MakeFieldsReadOnly" libraryName="new_RelianceScripts" handlerUniqueId="{07a4c52d-1c36-c4da-b239-277ea98218a8}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler functionName="GetSelectedMultiOptionSetValue" libraryName="new_RelianceScripts" handlerUniqueId="{bc2142c7-c413-a4e7-313a-8cc27ee20e00}" enabled="true" parameters="&quot;new_meansofapproval&quot;,&quot;new_selectedmeansofapproval&quot;" passExecutionContext="true" />
+            <Handler functionName="PaymentValueVisibility" libraryName="new_RelianceScripts" handlerUniqueId="{aa290543-0061-b575-0eb0-446b02162570}" enabled="true" parameters="&quot;new_meansofapproval&quot;" passExecutionContext="true" />
+            <Handler functionName="GetLoggedInUserSecurityRoleNames" libraryName="new_RelianceScripts" handlerUniqueId="{9a34c155-9dd1-c9ab-7894-ba49cdd71942}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="new_meansofapproval">
+          <Handlers>
+            <Handler functionName="GetSelectedMultiOptionSetValue" libraryName="new_RelianceScripts" handlerUniqueId="{4215ca4b-9430-85cb-88bc-58014dc5dae3}" enabled="true" parameters="&quot;new_meansofapproval&quot;,&quot;new_selectedmeansofapproval&quot;" passExecutionContext="true" />
+            <Handler functionName="PaymentValueVisibility" libraryName="new_RelianceScripts" handlerUniqueId="{8cda9854-b863-9433-5b2d-bab7c9c7e140}" enabled="true" parameters="&quot;new_meansofapproval&quot;" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

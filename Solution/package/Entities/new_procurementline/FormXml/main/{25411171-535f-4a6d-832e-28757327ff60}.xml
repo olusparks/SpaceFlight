@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{25411171-535f-4a6d-832e-28757327ff60}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{4fc9100d-aa27-40f0-9335-4173fd3dfb2d}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{69440207-c4cb-44fa-bc77-d9f3620434cc}" height="auto">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{14483728-8d5a-0586-dd16-1ae157d0d894}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Product Name" languagecode="1033" />
+                        </labels>
+                        <control id="new_productname" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="new_productname" disabled="false" uniqueid="{dcb0c82d-cc65-1ca9-2253-8cdb7330a84c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{53b912b1-5cac-431e-9c52-83499459c2b4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Item Name" languagecode="1033" />
+                        </labels>
+                        <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" uniqueid="{9620745a-77a6-cd3d-9009-78d20ce9cd58}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d611ac7-abc6-448d-de41-6e834aac0cb3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Select Product" languagecode="1033" />
+                        </labels>
+                        <control id="new_isproductoverridden" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="new_isproductoverridden" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{62a7a69e-9370-4ab9-d820-c7030b1b3b91}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Product Number" languagecode="1033" />
+                        </labels>
+                        <control id="new_productnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_productnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2bc86ae8-8226-7ee2-62ac-6a2575599093}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="NAV Product Category" languagecode="1033" />
+                        </labels>
+                        <control id="new_navproductcategory" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="new_navproductcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e49e3301-9d26-7639-1854-1430771d0e67}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="new_quantity" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="new_quantity" disabled="false" uniqueid="{7532b21e-b49d-2d50-db6d-e2b29d459a10}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52c6b304-7585-32ab-2d83-3737a0492ae9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit Sell Price" languagecode="1033" />
+                        </labels>
+                        <control id="new_priceperunit" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_priceperunit" disabled="false" uniqueid="{cda994bc-0782-e786-22e8-7ce02c0d8a0a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4d5824d2-7641-9485-86ca-e9cda7710b71}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit Buy Price" languagecode="1033" />
+                        </labels>
+                        <control id="new_buyingprice" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_buyingprice" disabled="false" uniqueid="{5537b4e8-49a8-83c9-b2e5-6a1a0ae3eed1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b3e281ed-d4d4-c560-58d4-39301606e914}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Buy Price" languagecode="1033" />
+                        </labels>
+                        <control id="new_totalbuyingprice" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_totalbuyingprice" disabled="false" uniqueid="{10cce936-581b-dc02-b540-2aa4ae2c29d7}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{67db9a85-9bbb-6327-b644-d1e0575000e3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Sell Price" languagecode="1033" />
+                        </labels>
+                        <control id="new_sellingpricee" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_sellingpricee" disabled="false" uniqueid="{2cd3c708-cea1-e4a1-c597-cc25d5aaa094}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04477602-3377-0d83-70d5-6b95cb085899}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Margin" languagecode="1033" />
+                        </labels>
+                        <control id="new_margin" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_margin" disabled="true" uniqueid="{57c22c3e-04da-1b3a-9dc7-b4d870dd9bac}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a0d8cdd8-2d5a-ddb9-d67e-45ce57ac2b88}" showlabel="true" locklevel="0" auto="true" rowspan="3">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="new_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="new_description" disabled="false" uniqueid="{bc42d159-2473-b9d3-e947-697e73aa6aa8}" />
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row height="auto" />
+                    <row>
+                      <cell id="{8117341a-00de-6b73-b6e5-27dc00a1a194}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3975dcf6-29e5-42de-9e53-0d337e94e730}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="new_navproductcategory" localizedName="Product Category" description="This displays the item category for NAV Posting group">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Product Category" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="This displays the item category for NAV Posting group" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="1000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Astute" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1001" ExternalValue="" Color="#FFA07A">
+      <labels>
+        <label description="Consulting and Advisory" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1002" ExternalValue="" Color="#DC143C">
+      <labels>
+        <label description="Griffin" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1003" ExternalValue="" Color="#8B0000">
+      <labels>
+        <label description="Microsoft Software (In-cloud Subscription)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1004" ExternalValue="" Color="#FFD700">
+      <labels>
+        <label description="Microsoft Hardware" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1005" ExternalValue="" Color="#FF8C00">
+      <labels>
+        <label description="Microsoft Software(On Premise &amp; Perpetual License)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Other Hardware (with Software Subscription)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1007" ExternalValue="" Color="#7CFC00">
+      <labels>
+        <label description="Other Hardware" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1008" ExternalValue="" Color="#228B22">
+      <labels>
+        <label description="Other Hardware (with Perpetual Software License)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1009" ExternalValue="" Color="#00FFFF">
+      <labels>
+        <label description="Project Implementation" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1010" ExternalValue="" Color="#008B8B">
+      <labels>
+        <label description="Software as a Service (SAAS) Rental" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1011" ExternalValue="" Color="#191970">
+      <labels>
+        <label description="Sajenwa" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1012" ExternalValue="" Color="#FF00FF">
+      <labels>
+        <label description="Support (SLA)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1013" ExternalValue="" Color="#8B008B">
+      <labels>
+        <label description="Sophos Hardware" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1014" ExternalValue="" Color="#C71585">
+      <labels>
+        <label description="Sophos Hardware with Perpetual Software License" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1015" ExternalValue="" Color="#778899">
+      <labels>
+        <label description="Sophos Hardware with Software Subscription" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1016" ExternalValue="" Color="#D2691E">
+      <labels>
+        <label description="Sophos Software Subscription" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="1017" ExternalValue="" Color="#800000">
+      <labels>
+        <label description="Training" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>
