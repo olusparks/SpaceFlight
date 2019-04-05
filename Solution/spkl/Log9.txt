@@ -1,0 +1,41 @@
+03:23:15 PM	 - new_accessrole
+03:23:15 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_accessrole\FormXml\card\{e5f47ea5-a68d-4a16-bdf5-c12acbf7fd33}.xml
+03:23:15 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_accessrole\FormXml\main\{ff910f85-3ac5-4932-aa23-e05d696a848c}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_accessrole\FormXml\quick\{628c452c-b177-4bf3-b42c-791aeb80717b}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_accessrole\SavedQueries\{d3d3bc61-9562-4462-b155-904cd5de7346}.xml
+03:23:16 PM	 - new_executionteam
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_executionteam\FormXml\card\{d577fa33-0f0e-46e6-9b6e-7be54ff22057}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_executionteam\SavedQueries\{e4e4e53e-11b2-4516-b555-5687d136b1ef}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurement\Formulas\new_procurement-new_margin.xaml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurement\Formulas\new_procurement-new_totalbuying.xaml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurement\FormXml\card\{e2661e80-788d-44e3-80ca-979d718ac1bd}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurement\SavedQueries\{5f324037-7242-e911-a977-000d3a38cba7}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurementline\Formulas\new_procurementline-new_sellingpricee.xaml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurementline\Formulas\new_procurementline-new_totalbuyingprice.xaml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurementline\FormXml\card\{283e70e6-3928-41eb-b623-f94841256b48}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurementline\FormXml\main\{25411171-535f-4a6d-832e-28757327ff60}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurementline\SavedQueries\{4e77eee5-0c15-45d5-8d47-be7649e113fe}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurementline\RibbonDiff.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurementline\Entity.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_relianceworkflowelements\SavedQueries\{010f7708-b5df-e811-a968-000d3a38c01d}.xml
+03:23:18 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_relianceworkflowelements\SavedQueries\{1bfedf80-f100-4b74-8c7d-343874de9d13}.xml
+03:23:19 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Workflows\ApproveProcurement-4DA1C241-CB33-4B73-A264-B71452039464.xaml.data.xml
+03:23:19 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Workflows\ApproveProcurement-4DA1C241-CB33-4B73-A264-B71452039464.xaml
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Other\Relationships\Account.xml
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Other\Relationships\Contact.xml
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Other\Relationships\Team.xml
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Other\Relationships\TransactionCurrency.xml
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Other\Relationships.xml
+03:23:20 PM	Processing Component: optionsets
+03:23:20 PM	 - new_procurementstatus
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\OptionSets\new_procurementstatus.xml
+03:23:20 PM	Solution may not repack due to missing mapped file for: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\PluginAssemblies/ReliancePlugins-1802B49D-6BA4-44F9-BD8A-B21DBDC2F599/ReliancePlugins.dll
+03:23:20 PM	Skipping 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\PluginAssemblies/ReliancePlugins-1802B49D-6BA4-44F9-BD8A-B21DBDC2F599/ReliancePlugins.dll' as it matches a mapping directive
+03:23:20 PM	Processing Component: EntityDataProviders
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Other\Customizations.xml
+03:23:20 PM	4 warnings encountered
+03:23:20 PM	Map folder 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Plugins\bin\' does not exist.
+03:23:20 PM	Read-only files will be over-written or deleted.
+03:23:20 PM	Solution may not repack due to missing mapped file for: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\WebResources\new_RelianceScripts
+03:23:20 PM	Solution may not repack due to missing mapped file for: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\PluginAssemblies/ReliancePlugins-1802B49D-6BA4-44F9-BD8A-B21DBDC2F599/ReliancePlugins.dll
+03:23:20 PM	CrmSvcUtil Runtime = 00:00:05.9409911

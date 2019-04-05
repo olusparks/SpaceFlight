@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{05bb9870-c0d6-4c4c-af66-eef69d2c9d81}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_name" select="1" icon="1" preview="1">
+        <row name="result" id="new_procurementid">
+          <cell name="new_procurementnumber" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_name" width="300" />
+          <cell name="new_account" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_accountmanager" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statuscode" width="100" />
+          <cell name="new_procurementstatus" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_procurement">
+          <attribute name="new_name" />
+          <attribute name="createdon" />
+          <order attribute="new_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="statuscode" />
+          <attribute name="new_procurementnumber" />
+          <attribute name="new_accountmanager" />
+          <attribute name="new_account" />
+          <attribute name="new_procurementstatus" />
+          <attribute name="new_procurementid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Procurements" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

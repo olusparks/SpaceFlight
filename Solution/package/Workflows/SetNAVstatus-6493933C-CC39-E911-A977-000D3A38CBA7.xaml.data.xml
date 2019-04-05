@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{6493933c-cc39-e911-a977-000d3a38cba7}" Name="Set NAV status" Description="Click to add description">
+  <XamlFileName>/Workflows/SetNAVstatus-6493933C-CC39-E911-A977-000D3A38CBA7.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>new_procurement</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Set NAV status" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Click to add description" />
+  </Descriptions>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{b0b87155-cc39-e911-a977-000d3a38cba7}">
+      <scope>2</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>new_procurement</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{afb87155-cc39-e911-a977-000d3a38cba7}">
+      <controltype>1</controltype>
+      <scope>2</scope>
+      <controlname>statuscode</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>new_procurement</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

@@ -1,0 +1,63 @@
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_accessrole\SavedQueries\{a35ac610-6175-405d-add2-e2c0a741d720}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_accessrole\SavedQueries\{85afe779-d90a-4d67-b3b2-0b54865d0166}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_accessrole\SavedQueries\{04d1cd87-4ecd-e811-a969-000d3a38c0ab}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_accessrole\SavedQueries\{e51e50f9-79ee-4b58-bfb8-bed369bdced3}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_accessrole\RibbonDiff.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_accessrole\Entity.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_executionteam\FormXml\main\{517e6739-c46e-43c0-a3f0-d14e7c9df8ec}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_executionteam\FormXml\quick\{27a2983a-ef3b-4d61-bccd-cd1bba54b8d7}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_executionteam\SavedQueries\{b970565f-a501-40ad-8ddd-67e4742327c8}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_executionteam\SavedQueries\{9179511c-6b00-47ca-81c3-def823fabd96}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_executionteam\SavedQueries\{6518d93b-ee06-4ed5-9afa-562fc8801231}.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_executionteam\Entity.xml
+03:23:16 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurement\Formulas\new_procurement-new_totalselling.xaml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurement\SavedQueries\{5f2c8d07-4b22-42eb-98dd-07c46881e74a}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurement\SavedQueries\{5a933837-8796-e811-a962-000d3a38c0ab}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurement\SavedQueries\{4c10ae5f-7fb4-4bd8-a7a3-1cf496b96cba}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurementline\FormXml\quick\{cf81437b-bd0a-4903-b127-8496c906e6e9}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurementline\SavedQueries\{d55a1f51-fb33-457b-b986-f9ddfd1ad6f4}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurementline\SavedQueries\{419a38a2-8b96-e811-a962-000d3a38c0ab}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_procurementline\SavedQueries\{1db0a4f3-139e-4d1d-ad74-799e6e3b8896}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_relianceworkflowelements\SavedQueries\{5c8f334c-2b96-4af4-9e2a-4d046f6c5bb9}.xml
+03:23:17 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_relianceworkflowelements\SavedQueries\{6947392e-fbd6-4521-8ec1-825b6474bda4}.xml
+03:23:18 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\new_relianceworkflowelements\SavedQueries\{75c908ce-a70e-48bb-acc0-36fa3822c254}.xml
+03:23:18 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\Quote\FormXml\main\{54076a2d-d043-4a1b-b061-4d06846371a9}.xml
+03:23:18 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\Quote\FormXml\quickCreate\{8dd0025e-7d87-4a7b-aaf4-12754b8fbede}.xml
+03:23:18 PM	 - QuoteDetail
+03:23:18 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\QuoteDetail\Formulas\quotedetail-new_productnumber.xaml
+03:23:18 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\QuoteDetail\Formulas\quotedetail-new_totalbuyingprice.xaml
+03:23:18 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Entities\QuoteDetail\Entity.xml
+03:23:18 PM	 - SystemUser
+03:23:18 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Workflows\SetProcurementStatus-A04C70D2-83EE-E811-A968-000D3A38C01D.xaml
+03:23:19 PM	 - Field Visibility for Write-In Products
+03:23:19 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Workflows\FieldVisibilityforWrite-InProducts-5DB3282D-6E3A-E911-A975-000D3A38C0AB.xaml.data.xml
+03:23:19 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Workflows\MasterVendorVisibility-8024383E-7342-E911-A977-000D3A38CBA7.xaml
+03:23:19 PM	 - Notify Users in Procurement via Action (Rejected)
+03:23:19 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Workflows\NotifyUsersinProcurementviaActionRejected-2E1BB1D1-AD7A-404D-8BDE-1AFDB1B0242B.xaml.data.xml
+03:23:19 PM	 - Procurement Revision with Reason Dialog
+03:23:19 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Workflows\1033\ProcurementRevisionwithReasonDialog-3E926E17-E6C8-44DC-8B6D-311356F45B58.xaml.data.xml
+03:23:19 PM	 - Notify Client When Procurement PO is Fulfilled
+03:23:19 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Workflows\NotifyClientWhenProcurementPOisFulfilled-FBBBDD43-4173-404B-9CFD-92EB6993625B.xaml
+03:23:19 PM	 - Procurement PO is Fulfilled
+03:23:19 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Workflows\ProcurementPOisFulfilled-063E4837-3AA0-4CBE-9627-996F500F7A98.xaml.data.xml
+03:23:19 PM	 - Notify Procurement Team when Opportunity is Lost
+03:23:19 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Workflows\NotifyProcurementTeamwhenOpportunityisLost-8251D059-C9BF-407C-8832-99B905CE36D3.xaml.data.xml
+03:23:19 PM	 - Approve Procurement
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Other\Relationships\Owner.xml
+03:23:20 PM	 - new_navproductcategory
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\OptionSets\new_navproductcategory.xml
+03:23:20 PM	 - new_navstatus
+03:23:20 PM	 - new_paymentstatus
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\OptionSets\new_paymentstatus.xml
+03:23:20 PM	Processing Component: InteractionCentricDashboards
+03:23:20 PM	 - {db86e637-863c-e711-80e0-00155d871bb4}
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\InteractionCentricDashboards\{db86e637-863c-e711-80e0-00155d871bb4}.xml
+03:23:20 PM	Solution may not repack due to missing mapped file for: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\WebResources\new_RelianceScripts
+03:23:20 PM	Skipping 'C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\WebResources\new_RelianceScripts' as it matches a mapping directive
+03:23:20 PM	Processing Component: SolutionPluginAssemblies
+03:23:20 PM	 - Reliance.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0e535518aa93a870
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\PluginAssemblies/ReliancePlugins-1802B49D-6BA4-44F9-BD8A-B21DBDC2F599/ReliancePlugins.dll.data.xml
+03:23:20 PM	Creating: C:\Users\Bantale Babajide\Documents\Personal\CRM\SpaceFlight\Solution\package\Other\Solution.xml
+03:23:20 PM	
+03:23:20 PM	Unmanaged Extract complete.
+03:23:20 PM	

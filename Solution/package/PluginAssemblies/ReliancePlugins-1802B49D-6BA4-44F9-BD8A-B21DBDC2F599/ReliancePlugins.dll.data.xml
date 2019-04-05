@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Reliance.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0e535518aa93a870" PluginAssemblyId="1802b49d-6ba4-44f9-bd8a-b21dbdc2f599" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/ReliancePlugins-1802B49D-6BA4-44F9-BD8A-B21DBDC2F599/ReliancePlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Reliance.Plugins.Procurement, Reliance.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0e535518aa93a870" PluginTypeId="09b8621f-1d20-4c4c-82f4-9a2d4a94a540" Name="Reliance.Plugins.Procurement">
+      <FriendlyName>7de36513-15da-401f-95c6-9c02221dce5c</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Reliance.Plugins.UpdateProcurementLineVendor, Reliance.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0e535518aa93a870" PluginTypeId="15acb6ee-bf31-403b-bfdc-3c511e97f7c5" Name="Reliance.Plugins.UpdateProcurementLineVendor">
+      <FriendlyName>9ecddaa5-fbb5-4bec-b821-01104138a42b</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>
