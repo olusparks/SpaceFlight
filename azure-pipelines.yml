@@ -27,3 +27,17 @@ steps:
     move "tools\\$coreToolsFolder\\content\\bin\\coretools\\*.*" "tools\\CoreTools"
     Remove-Item "tools\\$coreToolsFolder" -Force -Recurse
   displayName: 'Install CoreTools'
+
+- powershell: |
+    Start-Process tools/CoreTools/SolutionPackager.exe `
+    -ArgumentList `
+      "/action: Pack", `
+      "/zipfile: $(Build.ArtifactStagingDirectory)\packedSolution\$env:SolutionName.zip", `
+      "/folder: $env:SolutionPath", `
+      "/packagetype: Both" `
+    -Wait `
+    -NoNewWindow
+  env:
+    SolutionPath: $(solution.path)
+    SolutionName: $(solution.name)
+  displayName: 'Solution Packager: pack solution'
