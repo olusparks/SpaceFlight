@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{7ae43bc6-680d-4aca-beba-ddd6f822d216}" Name="Notify SalesTeam when Note is updated">
+  <XamlFileName>/Workflows/NotifySalesTeamwhenNoteisupdated-7AE43BC6-680D-4ACA-BEBA-DDD6F822D216.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>notetext</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>1</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>Annotation</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Notify SalesTeam when Note is updated" />
+  </LocalizedNames>
+</Workflow>

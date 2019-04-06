@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Activity" OriginalName="Activity">ActivityPointer</Name>
+  <EntityInfo>
+    <entity Name="ActivityPointer">
+      <attributes>
+        <attribute PhysicalName="RegardingObjectId">
+          <Type>lookup</Type>
+          <Name>regardingobjectid</Name>
+          <LogicalName>regardingobjectid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>1</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <displaynames>
+            <displayname description="Regarding" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the object with which the activity is associated." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+    </entity>
+  </EntityInfo>
+  <RibbonDiffXml />
+  <CustomControlDefaultConfigs>
+    <CustomControlDefaultConfig>
+      <CustomControlDefaultConfigId>{9743f8c0-fc1a-4b79-ac2a-eb32d96be8ca}</CustomControlDefaultConfigId>
+      <ControlDescriptionXML>
+        <controlDescriptions>
+          <controlDescription>
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="2">
+              <parameters />
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.Calendar.CalendarControl">
+              <parameters>
+                <data-set name="Calendar">
+                  <StartDate>scheduledstart</StartDate>
+                  <Description>subject</Description>
+                  <EndDate>scheduledend</EndDate>
+                  <Duration>scheduleddurationminutes</Duration>
+                </data-set>
+                <DisplayMode static="true" type="Enum">anchoredwithhoursofthedaytimeline</DisplayMode>
+                <MinimumDuration static="true" type="Whole.Duration">30</MinimumDuration>
+                <ColorFallbackBehavior static="true" type="Enum">colorfromentity</ColorFallbackBehavior>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.Calendar.CalendarControl">
+              <parameters>
+                <data-set name="Calendar">
+                  <StartDate>scheduledstart</StartDate>
+                  <Description>subject</Description>
+                  <EndDate>scheduledend</EndDate>
+                  <Duration>scheduleddurationminutes</Duration>
+                </data-set>
+                <DisplayMode static="true" type="Enum">anchoredwithhoursofthedaytimeline</DisplayMode>
+                <MinimumDuration static="true" type="Whole.Duration">30</MinimumDuration>
+                <ColorFallbackBehavior static="true" type="Enum">colorfromentity</ColorFallbackBehavior>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </ControlDescriptionXML>
+      <IntroducedVersion>8.0.0001.0079</IntroducedVersion>
+    </CustomControlDefaultConfig>
+  </CustomControlDefaultConfigs>
+</Entity>

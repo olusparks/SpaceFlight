@@ -1,41 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml>
   <CustomActions>
-    <HideCustomAction HideActionId="new.Mscrm.Form.new_procurement.AddOtherActivities.Hide" Location="Mscrm.Form.new_procurement.AddOtherActivities" />
-    <HideCustomAction HideActionId="new.Mscrm.Form.new_procurement.Assign.Hide" Location="Mscrm.Form.new_procurement.Assign" />
-    <HideCustomAction HideActionId="new.Mscrm.Form.new_procurement.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.new_procurement.Flows.RefreshCommandBar" />
-    <HideCustomAction HideActionId="new.Mscrm.Form.new_procurement.Permissions.Sharing.Hide" Location="Mscrm.Form.new_procurement.Permissions.Sharing" />
-    <HideCustomAction HideActionId="new.Mscrm.Form.new_procurement.Reports.Hide" Location="Mscrm.Form.new_procurement.Reports" />
-    <HideCustomAction HideActionId="new.Mscrm.Form.new_procurement.SendSelected.Hide" Location="Mscrm.Form.new_procurement.SendSelected" />
-    <HideCustomAction HideActionId="new.Mscrm.Form.new_procurement.WordTemplate.Hide" Location="Mscrm.Form.new_procurement.WordTemplate" />
-    <CustomAction Id="new.new_procurement.Button11.Reject.CustomAction" Location="Mscrm.Form.new_procurement.MainTab.Management.Controls._children" Sequence="15">
+    <CustomAction Id="new.new_procurement.Button4.Send.CustomAction" Location="Mscrm.Form.new_procurement.MainTab.Save.Controls._children" Sequence="63">
       <CommandUIDefinition>
-        <Button Alt="$LocLabels:new.new_procurement.Button11.Reject.Alt" Command="new.new_procurement.Command4.Reject" Id="new.new_procurement.Button11.Reject" Image32by32="/_imgs/ribbon/ActivtiyClose_32.png" Image16by16="/_imgs/ribbon/Close_16.png" LabelText="$LocLabels:new.new_procurement.Button11.Reject.LabelText" Sequence="15" TemplateAlias="isv" ToolTipTitle="$LocLabels:new.new_procurement.Button11.Reject.ToolTipTitle" ToolTipDescription="$LocLabels:new.new_procurement.Button11.Reject.ToolTipDescription" />
+        <Button Alt="$LocLabels:new.new_procurement.Button4.Send.Alt" Command="new.new_procurement.Form.RunWorkflow1.Send" Id="new.new_procurement.Button4.Send" Image32by32="$webresource:adx_icon_send_medium_32x32.png" Image16by16="$webresource:adx_icon_send_small_16x16.png" LabelText="$LocLabels:new.new_procurement.Button4.Send.LabelText" Sequence="63" TemplateAlias="o2" ToolTipTitle="$LocLabels:new.new_procurement.Button4.Send.ToolTipTitle" ToolTipDescription="$LocLabels:new.new_procurement.Button4.Send.ToolTipDescription" />
       </CommandUIDefinition>
     </CustomAction>
-    <CustomAction Id="new.new_procurement.Button15.SubmitToNAV.CustomAction" Location="Mscrm.Form.new_procurement.MainTab.Actions.Controls._children" Sequence="8">
+    <CustomAction Id="new.new_procurement.Button5.GProc.CustomAction" Location="Mscrm.HomepageGrid.new_procurement.MainTab.Management.Controls._children" Sequence="55">
       <CommandUIDefinition>
-        <Button Alt="$LocLabels:new.new_procurement.Button15.SubmitToNAV.Alt" Command="new.new_procurement.Command6.SubmitToNAV" Id="new.new_procurement.Button15.SubmitToNAV" Image32by32="/_imgs/ribbon/SendShortcut_32.png" Image16by16="/_imgs/ribbon/EmailLink_16.png" LabelText="$LocLabels:new.new_procurement.Button15.SubmitToNAV.LabelText" Sequence="8" TemplateAlias="o1" ToolTipTitle="$LocLabels:new.new_procurement.Button15.SubmitToNAV.ToolTipTitle" ToolTipDescription="$LocLabels:new.new_procurement.Button15.SubmitToNAV.ToolTipDescription" />
+        <Button Alt="$LocLabels:new.new_procurement.Button5.GProc.Alt" Command="new.new_procurement.Grid.RunWorkflow1.Send" Id="new.new_procurement.Button5.GProc" Image32by32="$webresource:adx_icon_send_medium_32x32.png" Image16by16="$webresource:adx_icon_send_small_16x16.png" LabelText="$LocLabels:new.new_procurement.Button5.GProc.LabelText" Sequence="55" TemplateAlias="o2" ToolTipTitle="$LocLabels:new.new_procurement.Button5.GProc.ToolTipTitle" ToolTipDescription="$LocLabels:new.new_procurement.Button5.GProc.ToolTipDescription" />
       </CommandUIDefinition>
     </CustomAction>
-    <CustomAction Id="new.new_procurement.Button17.PODelivered.CustomAction" Location="Mscrm.Form.new_procurement.MainTab.Actions.Controls._children" Sequence="7">
+    <CustomAction Id="new.new_procurement.Button7.Approve.CustomAction" Location="Mscrm.Form.new_procurement.MainTab.Save.Controls._children" Sequence="67">
       <CommandUIDefinition>
-        <Button Alt="$LocLabels:new.new_procurement.Button17.PODelivered.Alt" Command="new.new_procurement.Command7.PODelivered" Id="new.new_procurement.Button17.PODelivered" Image32by32="" Image16by16="" LabelText="$LocLabels:new.new_procurement.Button17.PODelivered.LabelText" Sequence="7" TemplateAlias="o1" ToolTipTitle="$LocLabels:new.new_procurement.Button17.PODelivered.ToolTipTitle" ToolTipDescription="$LocLabels:new.new_procurement.Button17.PODelivered.ToolTipDescription" />
+        <Button Alt="$LocLabels:new.new_procurement.Button7.Approve.Alt" Command="new.new_procurement.Command2.Approve" Id="new.new_procurement.Button7.Approve" Image32by32="$webresource:LeadManagement/_imgs/ribbon/Activate_32.png" Image16by16="$webresource:LeadManagement/_imgs/ribbon/Activate_16.png" LabelText="$LocLabels:new.new_procurement.Button7.Approve.LabelText" Sequence="67" TemplateAlias="o2" ToolTipTitle="$LocLabels:new.new_procurement.Button7.Approve.ToolTipTitle" ToolTipDescription="$LocLabels:new.new_procurement.Button7.Approve.ToolTipDescription" />
       </CommandUIDefinition>
     </CustomAction>
-    <CustomAction Id="new.new_procurement.Button4.Send.CustomAction" Location="Mscrm.Form.new_procurement.MainTab.Management.Controls._children" Sequence="5">
+    <CustomAction Id="new.new_procurement.Button8.Reject.CustomAction" Location="Mscrm.Form.new_procurement.MainTab.Save.Controls._children" Sequence="69">
       <CommandUIDefinition>
-        <Button Alt="$LocLabels:new.new_procurement.Button4.Send.Alt" Command="new.new_procurement.Form.RunWorkflow1.Send" Id="new.new_procurement.Button4.Send" Image32by32="" Image16by16="" LabelText="$LocLabels:new.new_procurement.Button4.Send.LabelText" Sequence="5" TemplateAlias="isv" ToolTipTitle="$LocLabels:new.new_procurement.Button4.Send.ToolTipTitle" ToolTipDescription="$LocLabels:new.new_procurement.Button4.Send.ToolTipDescription" />
-      </CommandUIDefinition>
-    </CustomAction>
-    <CustomAction Id="new.new_procurement.Button7.Approve.CustomAction" Location="Mscrm.Form.new_procurement.MainTab.Management.Controls._children" Sequence="10">
-      <CommandUIDefinition>
-        <Button Alt="$LocLabels:new.new_procurement.Button7.Approve.Alt" Command="new.new_procurement.Command2.Approve" Id="new.new_procurement.Button7.Approve" Image32by32="/_imgs/ribbon/Activate_32.png" Image16by16="/_imgs/ribbon/Activate_16.png" LabelText="$LocLabels:new.new_procurement.Button7.Approve.LabelText" Sequence="10" TemplateAlias="isv" ToolTipTitle="$LocLabels:new.new_procurement.Button7.Approve.ToolTipTitle" ToolTipDescription="$LocLabels:new.new_procurement.Button7.Approve.ToolTipDescription" />
-      </CommandUIDefinition>
-    </CustomAction>
-    <CustomAction Id="new.new_procurement.Button8.Revise.CustomAction" Location="Mscrm.Form.new_procurement.MainTab.Management.Controls._children" Sequence="8">
-      <CommandUIDefinition>
-        <Button Alt="$LocLabels:new.new_procurement.Button8.Revise.Alt" Command="new.new_procurement.Command3.Revise" Id="new.new_procurement.Button8.Revise" Image32by32="" Image16by16="" LabelText="$LocLabels:new.new_procurement.Button8.Revise.LabelText" Sequence="8" TemplateAlias="isv" ToolTipTitle="$LocLabels:new.new_procurement.Button8.Revise.ToolTipTitle" ToolTipDescription="$LocLabels:new.new_procurement.Button8.Revise.ToolTipDescription" ModernImage="" />
+        <Button Alt="$LocLabels:new.new_procurement.Button8.Reject.Alt" Command="new.new_procurement.Command3.Reject" Id="new.new_procurement.Button8.Reject" Image32by32="" Image16by16="" LabelText="$LocLabels:new.new_procurement.Button8.Reject.LabelText" Sequence="69" TemplateAlias="o2" ToolTipTitle="$LocLabels:new.new_procurement.Button8.Reject.ToolTipTitle" ToolTipDescription="$LocLabels:new.new_procurement.Button8.Reject.ToolTipDescription" ModernImage="" />
       </CommandUIDefinition>
     </CustomAction>
   </CustomActions>
@@ -45,174 +28,108 @@
   <CommandDefinitions>
     <CommandDefinition Id="new.new_procurement.Command2.Approve">
       <EnableRules>
-        <EnableRule Id="new.new_procurement.Approved.EnableRule" />
-        <EnableRule Id="new.new_procurement.MobileView.EnableRule" />
+        <EnableRule Id="new.new_procurement.HideOnCreate.EnableRule" />
+        <EnableRule Id="new.new_procurement.HideOnUnapproved.EnableRule" />
+        <EnableRule Id="new.new_procurement.HideOnReject.EnableRule" />
+        <EnableRule Id="new.new_procurement.HideOnApproved.EnableRule" />
       </EnableRules>
       <DisplayRules />
       <Actions>
-        <JavaScriptFunction FunctionName="ChangeToApproved" Library="$webresource:new_RelianceScripts" />
-      </Actions>
-    </CommandDefinition>
-    <CommandDefinition Id="new.new_procurement.Command3.Revise">
-      <EnableRules>
-        <EnableRule Id="new.new_procurement.Revise.EnableRule" />
-        <EnableRule Id="new.new_procurement.MobileView.EnableRule" />
-      </EnableRules>
-      <DisplayRules />
-      <Actions>
-        <JavaScriptFunction FunctionName="OpenDialog" Library="$webresource:new_RelianceScripts">
-          <StringParameter Value="AEEFCAAD-ACF4-44B9-B0A7-3A13B6FD41FD" />
-          <StringParameter Value="new_procurement" />
+        <JavaScriptFunction FunctionName="ChangeToApproved" Library="$webreosurce:new_RelianceScripts" />
+        <JavaScriptFunction FunctionName="Mscrm.FormAction.launchOnDemandWorkflowForm" Library="/_static/_forms/form.js">
+          <CrmParameter Value="PrimaryEntityTypeCode" />
+          <StringParameter Value="71C42376-3E14-4478-886E-41BF2EA32D97" />
         </JavaScriptFunction>
+        <JavaScriptFunction FunctionName="MakeFieldsReadOnly" Library="$webreosurce:new_RelianceScripts" />
       </Actions>
     </CommandDefinition>
-    <CommandDefinition Id="new.new_procurement.Command4.Reject">
+    <CommandDefinition Id="new.new_procurement.Command3.Reject">
       <EnableRules>
-        <EnableRule Id="new.new_procurement.Reject.EnableRule" />
-        <EnableRule Id="new.new_procurement.MobileView.EnableRule" />
+        <EnableRule Id="new.new_procurement.HideOnCreate.EnableRule" />
+        <EnableRule Id="new.new_procurement.HideOnUnapproved.EnableRule" />
+        <EnableRule Id="new.new_procurement.HideOnReject.EnableRule" />
+        <EnableRule Id="new.new_procurement.HideOnApproved.EnableRule" />
       </EnableRules>
-      <DisplayRules>
-        <DisplayRule Id="new.new_procurement.HideForNonAdmin.DisplayRule" />
-      </DisplayRules>
+      <DisplayRules />
       <Actions>
-        <JavaScriptFunction FunctionName="OpenDialog" Library="$webresource:new_RelianceScripts">
-          <StringParameter Value="C05A3DAB-A91B-4F27-87B6-744F26C2956D" />
-          <StringParameter Value="new_procurement" />
+        <JavaScriptFunction FunctionName="ChangeToRejected" Library="$webreosurce:new_RelianceScripts" />
+        <JavaScriptFunction FunctionName="Mscrm.FormAction.launchOnDemandWorkflowForm" Library="/_static/_forms/form.js">
+          <CrmParameter Value="PrimaryEntityTypeCode" />
+          <StringParameter Value="B74C38EC-F857-468A-84C4-EF0AC2757FCA" />
         </JavaScriptFunction>
-      </Actions>
-    </CommandDefinition>
-    <CommandDefinition Id="new.new_procurement.Command6.SubmitToNAV">
-      <EnableRules>
-        <EnableRule Id="new.new_procurement.AfterApproved.EnableRule" />
-      </EnableRules>
-      <DisplayRules />
-      <Actions>
-        <JavaScriptFunction FunctionName="SubmitProcurement" Library="$webresource:new_RelianceScripts" />
-      </Actions>
-    </CommandDefinition>
-    <CommandDefinition Id="new.new_procurement.Command7.PODelivered">
-      <EnableRules>
-        <EnableRule Id="new.new_procurement.AfterApproved.EnableRule" />
-        <EnableRule Id="new.new_procurement.Delivered.EnableRule" />
-      </EnableRules>
-      <DisplayRules />
-      <Actions>
-        <JavaScriptFunction FunctionName="ChangeProcStatus" Library="$webresource:new_RelianceScripts" />
+        <JavaScriptFunction FunctionName="IncrementRejectionID" Library="$webreosurce:new_RelianceScripts" />
       </Actions>
     </CommandDefinition>
     <CommandDefinition Id="new.new_procurement.Form.RunWorkflow1.Send">
       <EnableRules>
-        <EnableRule Id="new.new_procurement.Send.EnableRule" />
+        <EnableRule Id="new.new_procurement.HideOnCreate.EnableRule" />
+        <EnableRule Id="new.new_procurement.HideOnSentForApproval.EnableRule" />
+        <EnableRule Id="new.new_procurement.HideOnApproved.EnableRule" />
       </EnableRules>
       <DisplayRules />
       <Actions>
-        <JavaScriptFunction FunctionName="ChangeToSentForApproval" Library="$webresource:new_RelianceScripts" />
+        <JavaScriptFunction FunctionName="ChangeToSentForApproval" Library="$webreosurce:new_RelianceScripts" />
+        <JavaScriptFunction FunctionName="Mscrm.FormAction.launchOnDemandWorkflowForm" Library="/_static/_forms/form.js">
+          <CrmParameter Value="PrimaryEntityTypeCode" />
+          <StringParameter Value="E0EF66B7-7958-49A7-8FDF-6D0B95A16ACD" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="new.new_procurement.Grid.RunWorkflow1.Send">
+      <EnableRules>
+        <EnableRule Id="Mscrm.SelectionCountAtLeastOne" />
+        <EnableRule Id="Mscrm.RunWorkflowSelected" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <!-- <JavaScriptFunction FunctionName="Mscrm.GridRibbonActions.launchOnDemandWorkflow" Library="$webresource:/_static/_common/scripts/RibbonActions"> -->
+          <!-- <CrmParameter Value="SelectedControl" /> -->
+          <!-- <CrmParameter Value="SelectedControlSelectedItemReferences" /> -->
+          <!-- <CrmParameter Value="SelectedEntityTypeCode" /> -->
+          <!-- <StringParameter Value="E0EF66B7-7958-49A7-8FDF-6D0B95A16ACD" /> -->
+        <!-- </JavaScriptFunction> -->
       </Actions>
     </CommandDefinition>
   </CommandDefinitions>
   <RuleDefinitions>
     <TabDisplayRules />
     <DisplayRules>
-      <DisplayRule Id="new.new_procurement.HideForNonAdmin.DisplayRule">
-        <EntityPrivilegeRule PrivilegeType="Write" PrivilegeDepth="Global" EntityName="new_accessrole" InvertResult="false" />
+      <DisplayRule Id="new.new_procurement.Approved.DisplayRule">
+        <ValueRule Field="statuscode" Value="1" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="new.new_procurement.HideOnCreate.DisplayRule">
+        <FormStateRule State="Create" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="new.new_procurement.HideOnSentForApproval.DisplayRule">
+        <ValueRule Field="statuscode" Value="100000002" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="new.new_procurement.HideOnUnapproved.DisplayRule">
+        <FormStateRule State="Existing" InvertResult="true" />
+        <ValueRule Field="statuscode" Value="100000001" InvertResult="true" />
+      </DisplayRule>
+      <DisplayRule Id="new.new_procurement.Rejected.DisplayRule">
+        <ValueRule Field="statuscode" Value="100000000" InvertResult="true" />
       </DisplayRule>
     </DisplayRules>
     <EnableRules>
-      <EnableRule Id="new.new_procurement.AfterApproved.EnableRule">
-        <ValueRule Field="statuscode" Value="1" />
+      <EnableRule Id="new.new_procurement.HideOnApproved.EnableRule">
+        <CustomRule FunctionName="ApprovedStatus" Library="$webreosurce:new_RelianceScripts" InvertResult="true" />
       </EnableRule>
-      <EnableRule Id="new.new_procurement.Approved.EnableRule">
-        <ValueRule Field="statuscode" Value="100000002" />
+      <EnableRule Id="new.new_procurement.HideOnCreate.EnableRule">
+        <FormStateRule State="Create" InvertResult="true" />
       </EnableRule>
-      <EnableRule Id="new.new_procurement.Delivered.EnableRule">
-        <ValueRule Field="new_procurementstatus" Value="3" InvertResult="true" />
+      <EnableRule Id="new.new_procurement.HideOnReject.EnableRule">
+        <CustomRule FunctionName="RejectedStatus" Library="$webreosurce:new_RelianceScripts" InvertResult="true" />
       </EnableRule>
-      <EnableRule Id="new.new_procurement.MobileView.EnableRule">
-        <CustomRule FunctionName="GetLoggedInUserSecurityRoleNames" Library="$webresource:new_RelianceScripts" />
+      <EnableRule Id="new.new_procurement.HideOnSentForApproval.EnableRule">
+        <CustomRule FunctionName="SentForApprovalStatus" Library="$webreosurce:new_RelianceScripts" InvertResult="true" />
       </EnableRule>
-      <EnableRule Id="new.new_procurement.Reject.EnableRule">
-        <ValueRule Field="statuscode" Value="100000002" />
-      </EnableRule>
-      <EnableRule Id="new.new_procurement.Revise.EnableRule">
-        <ValueRule Field="statuscode" Value="100000002" />
-      </EnableRule>
-      <EnableRule Id="new.new_procurement.Send.EnableRule">
-        <OrRule>
-          <Or>
-            <ValueRule Field="statuscode" Value="100000001" />
-            <FormStateRule State="Existing" />
-          </Or>
-          <Or>
-            <ValueRule Field="statuscode" Value="100000000" />
-          </Or>
-        </OrRule>
-      </EnableRule>
-      <EnableRule Id="new.new_procurement.SubmitToNAV.EnableRule">
-        <ValueRule Field="new_navstatus" Value="2" InvertResult="true" />
+      <EnableRule Id="new.new_procurement.HideOnUnapproved.EnableRule">
+        <CustomRule FunctionName="UnapprovedStatus" Library="$webreosurce:new_RelianceScripts" InvertResult="true" />
       </EnableRule>
     </EnableRules>
   </RuleDefinitions>
   <LocLabels>
-    <LocLabel Id="new.new_procurement.Button11.Reject.Alt">
-      <Titles>
-        <Title description="Reject" languagecode="1033" />
-      </Titles>
-    </LocLabel>
-    <LocLabel Id="new.new_procurement.Button11.Reject.LabelText">
-      <Titles>
-        <Title description="Reject" languagecode="1033" />
-      </Titles>
-    </LocLabel>
-    <LocLabel Id="new.new_procurement.Button11.Reject.ToolTipDescription">
-      <Titles>
-        <Title description="Reject procurement justification" languagecode="1033" />
-      </Titles>
-    </LocLabel>
-    <LocLabel Id="new.new_procurement.Button11.Reject.ToolTipTitle">
-      <Titles>
-        <Title description="Reject Procurement" languagecode="1033" />
-      </Titles>
-    </LocLabel>
-    <LocLabel Id="new.new_procurement.Button15.SubmitToNAV.Alt">
-      <Titles>
-        <Title description="Submit" languagecode="1033" />
-      </Titles>
-    </LocLabel>
-    <LocLabel Id="new.new_procurement.Button15.SubmitToNAV.LabelText">
-      <Titles>
-        <Title description="Submit" languagecode="1033" />
-      </Titles>
-    </LocLabel>
-    <LocLabel Id="new.new_procurement.Button15.SubmitToNAV.ToolTipDescription">
-      <Titles>
-        <Title description="Create Procurement as PO in Dynamics NAV" languagecode="1033" />
-      </Titles>
-    </LocLabel>
-    <LocLabel Id="new.new_procurement.Button15.SubmitToNAV.ToolTipTitle">
-      <Titles>
-        <Title description="Submit Procurement to Dynamics NAV" languagecode="1033" />
-      </Titles>
-    </LocLabel>
-    <LocLabel Id="new.new_procurement.Button17.PODelivered.Alt">
-      <Titles>
-        <Title description="PO Delivered" languagecode="1033" />
-      </Titles>
-    </LocLabel>
-    <LocLabel Id="new.new_procurement.Button17.PODelivered.LabelText">
-      <Titles>
-        <Title description="PO Delivered" languagecode="1033" />
-      </Titles>
-    </LocLabel>
-    <LocLabel Id="new.new_procurement.Button17.PODelivered.ToolTipDescription">
-      <Titles>
-        <Title description="Purchase Order delivered to client" languagecode="1033" />
-      </Titles>
-    </LocLabel>
-    <LocLabel Id="new.new_procurement.Button17.PODelivered.ToolTipTitle">
-      <Titles>
-        <Title description="Purchase Order Delivered" languagecode="1033" />
-      </Titles>
-    </LocLabel>
     <LocLabel Id="new.new_procurement.Button4.Send.Alt">
       <Titles>
         <Title description="Send" languagecode="1033" />
@@ -233,6 +150,26 @@
         <Title description="Send Procurement" languagecode="1033" />
       </Titles>
     </LocLabel>
+    <LocLabel Id="new.new_procurement.Button5.GProc.Alt">
+      <Titles>
+        <Title description="Send" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="new.new_procurement.Button5.GProc.LabelText">
+      <Titles>
+        <Title description="Send" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="new.new_procurement.Button5.GProc.ToolTipDescription">
+      <Titles>
+        <Title description="Send Procurement" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="new.new_procurement.Button5.GProc.ToolTipTitle">
+      <Titles>
+        <Title description="Send" languagecode="1033" />
+      </Titles>
+    </LocLabel>
     <LocLabel Id="new.new_procurement.Button7.Approve.Alt">
       <Titles>
         <Title description="Approve" languagecode="1033" />
@@ -245,32 +182,32 @@
     </LocLabel>
     <LocLabel Id="new.new_procurement.Button7.Approve.ToolTipDescription">
       <Titles>
-        <Title description="Approve justification for this Procurement" languagecode="1033" />
+        <Title description="Approve procurement justification" languagecode="1033" />
       </Titles>
     </LocLabel>
     <LocLabel Id="new.new_procurement.Button7.Approve.ToolTipTitle">
       <Titles>
-        <Title description="Approve" languagecode="1033" />
+        <Title description="Approve Procurement" languagecode="1033" />
       </Titles>
     </LocLabel>
-    <LocLabel Id="new.new_procurement.Button8.Revise.Alt">
+    <LocLabel Id="new.new_procurement.Button8.Reject.Alt">
       <Titles>
-        <Title description="Revise" languagecode="1033" />
+        <Title description="Reject" languagecode="1033" />
       </Titles>
     </LocLabel>
-    <LocLabel Id="new.new_procurement.Button8.Revise.LabelText">
+    <LocLabel Id="new.new_procurement.Button8.Reject.LabelText">
       <Titles>
-        <Title description="Revise" languagecode="1033" />
+        <Title description="Reject" languagecode="1033" />
       </Titles>
     </LocLabel>
-    <LocLabel Id="new.new_procurement.Button8.Revise.ToolTipDescription">
+    <LocLabel Id="new.new_procurement.Button8.Reject.ToolTipDescription">
       <Titles>
-        <Title description="Revise procurement justification" languagecode="1033" />
+        <Title description="Reject procurement justification" languagecode="1033" />
       </Titles>
     </LocLabel>
-    <LocLabel Id="new.new_procurement.Button8.Revise.ToolTipTitle">
+    <LocLabel Id="new.new_procurement.Button8.Reject.ToolTipTitle">
       <Titles>
-        <Title description="Revise Procurement" languagecode="1033" />
+        <Title description="Reject Procurement" languagecode="1033" />
       </Titles>
     </LocLabel>
   </LocLabels>

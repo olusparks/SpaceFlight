@@ -25,8 +25,6 @@
           <cell name="new_calculatedprice" width="100" />
           <cell name="suggestions" disableSorting="1" width="90" LabelId="query.product.cell.productname.suggestions" disableMetaDataBinding="1" cellType="Crm.suggestions" />
           <cell name="description" disableSorting="1" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="new_buyingprice" width="100" />
-          <cell name="new_totalbuyingprice" width="100" />
           <cell name="isproductoverridden" ishidden="1" />
           <cell name="sequencenumber" width="100" ishidden="1" />
         </row>
@@ -51,8 +49,6 @@
           <order descending="true" attribute="sequencenumber" />
           <attribute name="new_calculatedprice" />
           <attribute name="description" />
-          <attribute name="new_totalbuyingprice" />
-          <attribute name="new_buyingprice" />
           <attribute name="quotedetailid" />
         </entity>
       </fetch>

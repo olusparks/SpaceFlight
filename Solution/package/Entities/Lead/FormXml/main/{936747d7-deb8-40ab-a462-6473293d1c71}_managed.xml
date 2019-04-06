@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{936747d7-deb8-40ab-a462-6473293d1c71}</formid>
+    <IntroducedVersion>8.1.0010</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true">
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:MarketingSales/Lead/Lead_main_system_library.js" solutionaction="Added" />
+          </clientincludes>
+        </internalresources>
+      </clientresources>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Web Form - Japanese" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

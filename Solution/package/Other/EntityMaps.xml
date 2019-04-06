@@ -1,6 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityMaps>
   <EntityMap>
+    <EntitySource>lead</EntitySource>
+    <EntityTarget>account</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>leadsourcecode</AttributeSource>
+        <AttributeTarget>new_accountsource</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>lead</EntitySource>
+    <EntityTarget>contact</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>leadsourcecode</AttributeSource>
+        <AttributeTarget>new_contactsource</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+  <EntityMap>
     <EntitySource>opportunity</EntitySource>
     <EntityTarget>quote</EntityTarget>
     <AttributeMaps>
@@ -33,6 +53,24 @@
       <AttributeMap>
         <AttributeSource>customerid</AttributeSource>
         <AttributeTarget>new_account</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>quote</EntitySource>
+    <EntityTarget>salesorder</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>new_contactperson</AttributeSource>
+        <AttributeTarget>new_contactperson</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>new_totalamountwithvat_qt</AttributeSource>
+        <AttributeTarget>new_totalamountwithvat</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>new_vat</AttributeSource>
+        <AttributeTarget>new_vat</AttributeTarget>
       </AttributeMap>
     </AttributeMaps>
   </EntityMap>

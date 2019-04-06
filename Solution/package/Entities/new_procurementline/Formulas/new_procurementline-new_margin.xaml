@@ -53,7 +53,7 @@
               <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep2_1]</OutArgument>
             </mxswa:ActivityReference.Arguments>
           </mxswa:ActivityReference>
-          <mxswa:GetEntityProperty Attribute="new_sellingpricee" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="new_procurementline" Value="[ConditionBranchStep2_5]">
+          <mxswa:GetEntityProperty Attribute="new_sellingprice" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="new_procurementline" Value="[ConditionBranchStep2_5]">
             <mxswa:GetEntityProperty.TargetType>
               <InArgument x:TypeArguments="s:Type">
                 <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
@@ -107,7 +107,7 @@
                       </Sequence.Variables>
                       <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;new_procurementline&quot;)]" />
                       <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
-                      <mxswa:GetEntityProperty Attribute="new_sellingpricee" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="new_procurementline" Value="[SetAttributeValueStep4_3]">
+                      <mxswa:GetEntityProperty Attribute="new_sellingprice" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="new_procurementline" Value="[SetAttributeValueStep4_3]">
                         <mxswa:GetEntityProperty.TargetType>
                           <InArgument x:TypeArguments="s:Type">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:Money" />
@@ -124,7 +124,7 @@
                           <OutArgument x:TypeArguments="x:Object" x:Key="Result">[SetAttributeValueStep4_2]</OutArgument>
                         </mxswa:ActivityReference.Arguments>
                       </mxswa:ActivityReference>
-                      <mxswa:GetEntityProperty Attribute="new_totalbuyingprice" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="new_procurementline" Value="[SetAttributeValueStep4_5]">
+                      <mxswa:GetEntityProperty Attribute="new_buyingprice" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="new_procurementline" Value="[SetAttributeValueStep4_5]">
                         <mxswa:GetEntityProperty.TargetType>
                           <InArgument x:TypeArguments="s:Type">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:Money" />

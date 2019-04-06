@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{54076a2d-d043-4a1b-b061-4d06846371a9}</formid>
+    <IntroducedVersion>6.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900" showImage="false" shownavigationbar="true" solutionaction="Modified">
+      <tabs>
+        <tab name="Summary_tab" verticallayout="true" id="{0B04E4B1-3339-4288-9FD6-96A1F26E22B9}" IsUserDefined="0" locklevel="0" expanded="true" showlabel="true" ordinalvalue="0">
+          <columns>
+            <column width="21%" id="0">
+              <sections>
+                <section name="quote information" showlabel="false" showbar="false" id="{0196B23E-8DC5-4C2A-B911-FCDE404452C9}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{490D5E8C-F769-4862-9116-4FBF4B218498}" locklevel="1" ordinalvalue="10000" solutionaction="Modified">
+                        <control disabled="true" id="quotenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="quotenumber" uniqueid="{8441756e-2e65-b504-a735-b7bb80923a24}" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4D52C08C-A9AE-4859-9A85-6F8B244384CB}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Modified">
+                        <control disabled="false" id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" uniqueid="{25348278-dabc-120c-483e-aaa1d1ae2783}" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section id="{1CDD1ABB-4B2E-4A34-9BE9-B7B5324BEBF6}" name="shipping information" showlabel="true" locklevel="0" IsUserDefined="0" celllabelposition="Left" celllabelalignment="Left" labelwidth="115" columns="1" showbar="false" availableforphone="false" visible="false" ordinalvalue="1" solutionaction="Modified" />
+                <section id="{BF9211DB-F76C-4C84-82D3-F86B27A7B63D}" name="addresses" showlabel="true" locklevel="0" IsUserDefined="0" celllabelposition="Left" celllabelalignment="Left" labelwidth="115" columns="1" showbar="false" availableforphone="false" ordinalvalue="2" solutionaction="Modified" />
+              </sections>
+            </column>
+            <column width="53%" id="1">
+              <sections>
+                <section id="{760CDC30-0EF9-4F1E-A117-38F60EAC0E86}" height="auto" name="products" showlabel="false" IsUserDefined="0" showbar="false" ordinalvalue="0" solutionaction="Modified">
+                  <rows>
+                    <row>
+                      <cell id="{09274D2B-B78F-471F-86CB-04F4EF9B88EF}" showlabel="true" auto="true" rowspan="4" colspan="2" ordinalvalue="10000" solutionaction="Modified">
+                        <control id="quotedetailsGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" uniqueid="{9e233293-8ceb-4ae8-1b89-c41d8c63bd1a}" indicationOfSubgrid="true" solutionaction="Modified">
+                          <parameters>
+                            <ViewId solutionaction="Modified">{6002E910-DDFB-E511-80F1-5065F38A0B61}</ViewId>
+                            <ViewIds solutionaction="Modified">{6002E910-DDFB-E511-80F1-5065F38A0B61}</ViewIds>
+                            <VisualizationId solutionaction="Modified">{080D1F72-2A42-E511-80E6-00155DB85301}</VisualizationId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="suggestionsection" showlabel="false" showbar="false" locklevel="1" id="{0533552f-c976-4a0c-b880-eb431c9642c9}" IsUserDefined="0" columns="1" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" visible="false" ordinalvalue="1" solutionaction="Modified">
+                  <labels>
+                    <label description="Suggestion" languagecode="1033" solutionaction="Added" />
+                  </labels>
+                </section>
+                <section name="totals" labelwidth="250" showlabel="false" showbar="false" id="{D17282A8-648F-47DF-BECF-3218A56C57B5}" IsUserDefined="0" ordinalvalue="3">
+                  <rows>
+                    <row>
+                      <cell id="{60240442-E3C1-46BD-9796-1A2306CBFDC6}" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{09C2B2EC-1E8E-4F56-9BC9-A6788FE92210}" ordinalvalue="10003" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{93BEF190-1B37-4BB6-951D-3C3D03FE6114}" ordinalvalue="10004" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{169A480E-E626-44E1-BF92-1C1D06C84638}" ordinalvalue="10005" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{09936002-2191-4B78-860B-057367726B5B}" ordinalvalue="10006" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{3b6b59c8-a128-793a-5eb8-d3c785240b07}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Detail Amount" languagecode="1033" />
+                        </labels>
+                        <control id="totallineitemamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="totallineitemamount" disabled="false" uniqueid="{a5952282-0c15-2a7c-d2a6-6063562dcd8e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2628c95b-073a-3b27-b78c-7d79031d5020}" showlabel="true" locklevel="1" visible="false" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Total Amount" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="new_customtotal" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_customtotal" uniqueid="{dc2ca70a-5740-c986-597c-050e134b8944}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9bb3203-3814-73e7-4c26-d0269041a1a4}" showlabel="true" locklevel="1" visible="false" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="new_customtotal_base" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_customtotal_base" uniqueid="{accc3554-71b2-031c-7bea-8b7191a44c5c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c5cd0d1b-1e5a-db85-1607-e234a2e32929}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Quote Vat (Naira)" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="new_quotevat" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="new_quotevat" uniqueid="{74237a95-6940-a797-2a7d-57dee0a14abc}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d4943cd-727d-09a4-7bde-777a7b80938a}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="new_grandtotalnaira" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="new_grandtotalnaira" uniqueid="{8d5d6612-a939-5792-3133-530ad95533bc}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e7683d01-13ac-50a6-d8a6-372de3be65a0}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10007" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="exchangerate" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="exchangerate" uniqueid="{e8ebb841-7331-7307-e640-7259514d7360}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8c56c1c-a142-0203-b6ab-b3b74c662ead}" showlabel="true" locklevel="0" ordinalvalue="10008" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="totalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="totalamount" disabled="false" uniqueid="{e62bc60c-2ea2-b75b-50db-7234a82d94e9}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{72db9216-9151-d0b9-b491-937402636b9e}" showlabel="true" locklevel="0" ordinalvalue="10009" solutionaction="Added">
+                        <labels>
+                          <label description="VAT" languagecode="1033" />
+                        </labels>
+                        <control id="new_vat_base" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_vat_base" disabled="false" uniqueid="{9c428a89-1542-9465-2b94-146a404b4e44}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca17c19b-db0d-0a71-1552-15eb306dad99}" showlabel="true" locklevel="0" ordinalvalue="10010" solutionaction="Added">
+                        <labels>
+                          <label description="Total Amount &amp; VAT" languagecode="1033" />
+                        </labels>
+                        <control id="new_totalamountwithvat_qt_base" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_totalamountwithvat_qt_base" disabled="false" uniqueid="{b9ccb629-cd68-0191-1444-9a22e3217a24}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="26%" id="2">
+              <sections>
+                <section name="sales_information" showlabel="true" showbar="false" id="{AE74B570-56C3-4FF6-A27B-F3A779A7356B}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{84012BAE-D707-48FB-A439-812FAA831DE3}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Modified">
+                        <control disabled="false" id="opportunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="opportunityid" uniqueid="{20ba0e1d-a4e9-5dcc-1356-2761d2723a15}" solutionaction="Modified">
+                          <parameters>
+                            <AutoResolve solutionaction="Added">true</AutoResolve>
+                            <DisableMru solutionaction="Added">false</DisableMru>
+                            <DisableQuickFind solutionaction="Added">false</DisableQuickFind>
+                            <DisableViewPicker solutionaction="Added">false</DisableViewPicker>
+                            <DefaultViewId solutionaction="Added">{9EB361B4-67AC-4830-8ABF-2D29EFBAEE2C}</DefaultViewId>
+                            <AllowFilterOff solutionaction="Added">true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c7e434b-8695-d94d-2654-8d02b40a6e7c}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Account" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                        <control disabled="false" id="customerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="customerid" uniqueid="{7903b99e-c45b-725d-626b-6c08a6879a41}" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e3d2dea9-5445-5e82-e297-97c788862e33}" showlabel="true" locklevel="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="new_contactperson" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_contactperson" uniqueid="{ac518db5-0327-d343-aeca-5ee4c3cd9167}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <FilterRelationshipName>contactquotes_association</FilterRelationshipName>
+                            <DependentAttributeName>contact.parentcustomerid</DependentAttributeName>
+                            <DependentAttributeType>contact</DependentAttributeType>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section id="{db63a003-5a93-8213-a8db-1b2bae85a4c3}" name="description_section" showlabel="false" locklevel="0" IsUserDefined="0" celllabelposition="Top" celllabelalignment="Left" labelwidth="115" columns="1" showbar="false" availableforphone="false" layout="varwidth" visible="false" ordinalvalue="2" solutionaction="Modified">
+                  <rows>
+                    <row>
+                      <cell id="{13407006-6b61-746d-c99a-317564094a11}" showlabel="false" locklevel="0" rowspan="8" ordinalvalue="10002" solutionaction="Modified">
+                        <control disabled="false" id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" uniqueid="{cadee413-2671-1013-d7cb-6ad0a707e069}" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a854e30-d76b-16ab-5d24-9388ee936565}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="freightamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="freightamount" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e3d06ca5-d429-c175-c4a6-81824841d414}" showlabel="false" locklevel="0" visible="false" availableforphone="false" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="freightamount_base" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="freightamount_base" uniqueid="{c40d7406-89e0-5d2c-c7aa-a229ea5ecdea}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="section_downloadquote" showlabel="false" showbar="false" locklevel="0" id="{c4e58189-baee-d1a7-c2d4-90275d7ec3b5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1" solutionaction="Added">
+                  <labels>
+                    <label description="Download Quote" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bd5543ed-5e6e-1522-5672-d71145ec55d2}" showlabel="false" userspacer="true" ordinalvalue="10000">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e6b46840-b342-5bb4-bd09-94d79623d9eb}" showlabel="false" colspan="1" auto="false" rowspan="3" ordinalvalue="10001">
+                        <labels>
+                          <label description="quotepdf" languagecode="1033" />
+                        </labels>
+                        <control id="IFRAME_quotepdf" classid="{FD2A7985-3187-444e-908D-6624B21F69C0}">
+                          <parameters>
+                            <Url>https://rqt.azurewebsites.net/GeneratePDF.aspx</Url>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>true</Border>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies>
+                              <dependency id="quotenumber" />
+                            </dependencies>
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="details_tab" id="{b188a203-cb26-20a0-6baa-a8eb47ab04b2}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="1">
+          <columns>
+            <column width="100%" id="0" solutionaction="Modified">
+              <sections>
+                <section name="Social Pane" showlabel="false" showbar="false" id="{926EB045-51E2-4B87-9B2C-9238457E7DB3}" IsUserDefined="0" locklevel="0" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{36C5711C-1798-41B0-AE7B-1D7C948BB8D1}" colspan="2" rowspan="25" showlabel="false" locklevel="0" ordinalvalue="10000">
+                        <control disabled="false" id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" uniqueid="{4625d577-3ad1-ca12-a671-7b0b10e7eb30}" solutionaction="Modified">
+                          <parameters>
+                            <OrderByActivityWall solutionaction="Added">descending</OrderByActivityWall>
+                            <SortActivityWall solutionaction="Added">modifiedon</SortActivityWall>
+                            <ShowArticleTab solutionaction="Added">false</ShowArticleTab>
+                            <SelectDefaultLanguage solutionaction="Added">00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                            <UClientUniqueName solutionaction="Added">Timeline</UClientUniqueName>
+                            <UClientModules solutionaction="Added">Activities,Notes</UClientModules>
+                            <UClientDefaultModuleForCreateExperience solutionaction="Added">Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane solutionaction="Added">true</UClientShowFilterPane>
+                            <UClientExpandFilterPane solutionaction="Added">false</UClientExpandFilterPane>
+                            <UClientOrderBy solutionaction="Added">descending</UClientOrderBy>
+                            <UClientRecordPerPage solutionaction="Added">10</UClientRecordPerPage>
+                            <UClientSortActivitiesByValue solutionaction="Added">modifiedon</UClientSortActivitiesByValue>
+                            <UClientDisplayActivityHeaderUsing solutionaction="Added">defaultformat</UClientDisplayActivityHeaderUsing>
+                            <UClientCreateActivityUsing solutionaction="Added">quickcreateform</UClientCreateActivityUsing>
+                            <UClientDisplayActivityUsing solutionaction="Added">defaultfields</UClientDisplayActivityUsing>
+                            <EmailConversationView solutionaction="Added">true</EmailConversationView>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="1" solutionaction="Removed" />
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8724B7C3-1449-4D95-8C51-BBDAE21D5F1A}" celllabelposition="Top" columns="1111" labelwidth="115" celllabelalignment="Left" solutionaction="Modified">
+        <rows>
+          <row>
+            <cell id="{c38e6e74-c6cb-a612-edc9-48537b889be0}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Removed" />
+          </row>
+          <row>
+            <cell id="{32d9350a-9138-dd26-0352-48775c378ca9}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+              <labels>
+                <label description="Total Amount &amp; VAT" languagecode="1033" />
+              </labels>
+              <control id="header_new_totalamountwithvat_qt_base" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_totalamountwithvat_qt_base" disabled="false" uniqueid="{bac4ee04-58dc-0938-35db-c86eb4641a5d}" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <events>
+        <event name="onload" application="true" active="true">
+          <Handlers solutionaction="Added">
+            <Handler passExecutionContext="true" enabled="true" handlerUniqueId="{03c416a7-de86-4c61-b37c-cc979578c3dc}" libraryName="new_update_grandtotal" functionName="updateQuote" parameters="" />
+            <Handler functionName="SetIFrameURL" libraryName="new_RelianceScripts" handlerUniqueId="{eb82b487-cb8b-453a-acd9-ea3b1d68968c}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onchange" active="false" application="false" attribute="new_customtotal" solutionaction="Added">
+          <dependencies>
+            <dependency id="new_customtotal_base" />
+          </dependencies>
+          <Handlers>
+            <Handler passExecutionContext="false" enabled="true" handlerUniqueId="{6c0b2341-0cbe-2e2c-1839-8671c7cbc7d5}" libraryName="new_update_grandtotal" functionName="updateQuote" parameters="" />
+          </Handlers>
+        </event>
+        <event name="onsave" active="false" application="false" solutionaction="Added">
+          <dependencies>
+            <dependency id="new_customtotal_base" />
+          </dependencies>
+          <Handlers>
+            <Handler passExecutionContext="false" enabled="true" handlerUniqueId="{90d85ce1-5911-0b27-6b45-c082d430b488}" libraryName="new_update_grandtotal" functionName="updateQuote" parameters="" />
+          </Handlers>
+        </event>
+        <event name="onchange" active="false" application="false" attribute="new_customtotal_base" solutionaction="Added">
+          <dependencies>
+            <dependency id="new_customtotal" />
+          </dependencies>
+          <Handlers>
+            <Handler passExecutionContext="false" enabled="true" handlerUniqueId="{b18dc7e1-a9b7-cb93-8d99-b32095b8e2ee}" libraryName="new_update_grandtotal" functionName="updateQuote" parameters="" />
+          </Handlers>
+        </event>
+      </events>
+      <formLibraries>
+        <Library name="new_update_grandtotal" libraryUniqueId="{319468db-b163-ac34-7022-95e814c203a4}" solutionaction="Added" />
+        <Library name="new_update_grandtotal_test" libraryUniqueId="{ba58ba97-0a77-a425-281c-778834e0cea6}" solutionaction="Added" />
+        <Library name="new_RelianceScripts" libraryUniqueId="{baed526b-51e7-b00e-dcc9-3c544310257b}" solutionaction="Added" />
+      </formLibraries>
+      <Navigation>
+        <NavBarAreas solutionaction="Added">
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quote" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Quote form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

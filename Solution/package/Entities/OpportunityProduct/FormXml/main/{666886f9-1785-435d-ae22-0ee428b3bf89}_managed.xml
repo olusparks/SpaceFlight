@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{666886f9-1785-435d-ae22-0ee428b3bf89}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="general" verticallayout="true" id="{69ca981e-9abe-4c5b-904b-f9bb062e46e7}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="opportunity product information" showlabel="false" showbar="false" id="{29c8908b-9121-420c-878e-e72a8c0b3096}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{5481b551-bb9a-204d-3e4e-e2d114176cb2}" showlabel="true" locklevel="0" rowspan="2" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" uniqueid="{318730c3-b356-54d5-bba0-2bd870a305ac}" />
+                      </cell>
+                      <cell id="{ed10e32c-b285-d234-a846-d1569a1c9074}" showlabel="false" ordinalvalue="20005" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b71e450a-06a1-545a-8c58-47c92a89d389}" showlabel="false" ordinalvalue="20006" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="pricing" showlabel="true" showbar="true" id="{3285b1e6-980b-4229-baf8-2c42b35eb859}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{00a16904-3546-41d0-8371-507b1eb8799d}" showlabel="false" ordinalvalue="20002" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{3eb453eb-88b7-4621-a058-f52e4d6445ab}" showlabel="false" ordinalvalue="20004" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{baf50011-7860-463a-bb47-f306a45d59d6}" showlabel="false" ordinalvalue="20006" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{bbf8a3e5-9e4a-4fb3-9af3-c306ccf0c4db}" showlabel="false" ordinalvalue="20008" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{0abe929b-b372-45ec-ae6b-ec8083adeacb}" showlabel="false" ordinalvalue="20010" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{5b61c66f-06ff-47c1-af22-d29c88129ea6}" showlabel="false" ordinalvalue="20012" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{af96b465-e664-4b87-9cfd-75c432737efa}" showlabel="false" ordinalvalue="20014" solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation solutionaction="Added">
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions solutionaction="Added" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

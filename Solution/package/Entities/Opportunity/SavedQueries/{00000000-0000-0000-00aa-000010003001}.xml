@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010003001}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="opportunityid">
+          <cell name="name" width="300" />
+          <cell name="customerid" width="150" />
+          <cell name="createdon" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="estimatedclosedate" width="125" />
+          <cell name="estimatedvalue" width="100" />
+          <cell name="opportunityratingcode" width="100" />
+          <cell name="opportunitycustomeridcontactcontactid.emailaddress1" width="150" disableSorting="1" />
+          <cell name="a_d92c12f78e5a474cbc1a39ed130438af.fullname" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="opportunity">
+          <attribute name="name" />
+          <attribute name="estimatedvalue" />
+          <attribute name="estimatedclosedate" />
+          <order attribute="estimatedclosedate" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="customerid" />
+          <attribute name="opportunityratingcode" />
+          <link-entity alias="opportunitycustomeridcontactcontactid" name="contact" from="contactid" to="customerid" link-type="outer" visible="false">
+            <attribute name="emailaddress1" />
+          </link-entity>
+          <link-entity alias="a_d92c12f78e5a474cbc1a39ed130438af" name="systemuser" from="systemuserid" to="owninguser" link-type="outer" visible="false">
+            <attribute name="fullname" />
+          </link-entity>
+          <attribute name="createdon" />
+          <attribute name="modifiedon" />
+          <attribute name="opportunityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Open Opportunities" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

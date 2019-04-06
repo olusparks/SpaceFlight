@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{8448b78f-8f42-454e-8e2a-f8196b0419af}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" shownavigationbar="true" maxWidth="1900">
+      <tabs>
+        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" ordinalvalue="0">
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section name="ACCOUNT_INFORMATION" showlabel="true" showbar="false" id="{0eb92e6c-bcb8-0d52-a188-d81543ddb7cd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="160" celllabelposition="Left" locklevel="0" celllabelalignment="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{7487770e-7ed3-82b9-0864-20c885bd8165}" showlabel="true" locklevel="0" ordinalvalue="10008" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="nav_accountstatisticsid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nav_accountstatisticsid" disabled="false" uniqueid="{cca4cae3-5e75-9698-bad3-7b1606c40ad5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b7c24935-7305-e90d-d152-8728d81e3b65}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10009" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="new_accountnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_accountnumber" disabled="false" uniqueid="{a66615bc-b44e-8d13-1723-4dc88be295a0}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="25%" id="2">
+              <sections>
+                <section name="SUMMARY_TAB_section_6" showlabel="false" showbar="false" locklevel="0" id="{d4c3ee9c-ba71-5cdb-31be-2aa505750472}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="160" celllabelalignment="Left" celllabelposition="Top" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{245158ED-C47A-4BB5-AAC7-E8C96A655801}" showlabel="true" rowspan="8" colspan="1" auto="false" ordinalvalue="10005" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{3E27EE84-1A25-418B-85F5-CDCC7CD5918D}" showlabel="true" rowspan="8" colspan="1" auto="false" ordinalvalue="10006" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{1824ec9c-5a7a-00d1-c78c-1a59cea90845}" showlabel="true" colspan="1" auto="false" rowspan="6" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="WON OPPORTUNITIES" languagecode="1033" />
+                        </labels>
+                        <control id="WonOpportunities" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{83d0c2dc-be03-02c8-a1e5-76701ecbc33a}">
+                          <parameters>
+                            <ViewId>{F73A5BEF-A782-DE11-9FF3-00155DA3B012}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>opportunity_parent_account</RelationshipName>
+                            <TargetEntityType>opportunity</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{00000000-0000-0000-00AA-000010003000},{F73A5BEF-A782-DE11-9FF3-00155DA3B012}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId>{8BC5FB18-48F2-4782-9E16-3D452FA4DDCE}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="DETAILS_TAB" id="{11a42c72-9ded-ea04-253d-2143e731b795}" IsUserDefined="0" showlabel="true" expanded="true" ordinalvalue="2">
+          <columns>
+            <column width="33%" id="1">
+              <sections>
+                <section name="CONTACT_PREFERENCES" showlabel="true" showbar="false" id="{2787a122-55d5-4c8d-9b21-c8d4ec8cc3fc}" IsUserDefined="0" columns="1" labelwidth="160" celllabelposition="Left" locklevel="0" celllabelalignment="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{0a536c64-788d-4f22-a388-fbddfdee8142}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10001" solutionaction="Modified">
+                        <control id="donotemail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotemail" uniqueid="{d3bc18b6-1bba-2725-11dd-403c41272e3a}" disabled="false" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{82b8410d-3b9c-4aca-9968-6b3e493ef92e}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10002" solutionaction="Modified">
+                        <control id="followemail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="followemail" uniqueid="{1446ac93-972e-ce57-8704-c5c981968127}" disabled="false" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cfa09fa5-ccb6-4f97-bd8d-d7e037a7aab1}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10003" solutionaction="Modified">
+                        <control id="donotbulkemail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotbulkemail" uniqueid="{80e7e666-570d-752b-49a1-ee325777816e}" disabled="false" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f587cb66-b142-47c9-bc7a-009875261840}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10004" solutionaction="Modified">
+                        <control id="donotphone" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotphone" uniqueid="{e6145920-b5a0-1e6a-b2b5-e9893e43c1ce}" disabled="false" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12927a20-3614-4546-89fc-9bdbd9b7432f}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10005" solutionaction="Modified">
+                        <control id="donotfax" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotfax" uniqueid="{e8a4a482-33d6-6721-a104-e7b3a65c39ae}" disabled="false" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed50e866-7968-483d-8388-0e6313d3c784}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10006" solutionaction="Modified">
+                        <control id="donotpostalmail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotpostalmail" uniqueid="{85b8d1b2-5376-3336-1729-7335ad025754}" disabled="false" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d5a03552-1183-4347-a237-1f894ba449eb}" columns="111" celllabelposition="Top" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{2041dc52-69da-8a05-4dd6-50c87d4a2bac}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_new_accountsource" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="new_accountsource" disabled="false" />
+            </cell>
+            <cell id="{0ea1edd3-45ea-342a-4278-574e2876a098}" showlabel="false" ordinalvalue="20004" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d72e06b8-c416-6a03-b5c0-c433cdc11305}" showlabel="false" ordinalvalue="30005" solutionaction="Added">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navCampaignsInSFA" Sequence="22" Area="Marketing" Id="navCampaignsInSFA" Show="false" solutionaction="Removed" />
+          <NavBarByRelationshipItem RelationshipName="msdyn_account_msdyn_actualfact_AccountCustomer" Sequence="10002" Area="Info" Id="nav_msdyn_account_msdyn_actualfact_AccountCustomer" Show="false" solutionaction="Removed" />
+          <NavBarByRelationshipItem RelationshipName="msdyn_account_msdyn_actualfact_AccountVendor" Sequence="10003" Area="Info" Id="nav_msdyn_account_msdyn_actualfact_AccountVendor" Show="false" solutionaction="Removed" />
+        </NavBar>
+      </Navigation>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Account" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Account form." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

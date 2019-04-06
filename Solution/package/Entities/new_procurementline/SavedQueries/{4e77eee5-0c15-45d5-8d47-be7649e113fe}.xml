@@ -10,12 +10,10 @@
     <layoutxml>
       <grid name="resultset" jump="new_name" select="1" icon="1" preview="1">
         <row name="result" id="new_procurementlineid">
-          <cell name="new_productname" width="200" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="new_quantity" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="new_priceperunit" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="new_buyingprice" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="new_totalbuyingprice" width="100" />
-          <cell name="new_sellingpricee" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_quantity" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_buyingprice" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_sellingprice" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="new_margin" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
         </row>
       </grid>
@@ -24,17 +22,15 @@
     <fetchxml>
       <fetch version="1.0" mapping="logical">
         <entity name="new_procurementline">
-          <order attribute="new_quantity" descending="false" />
+          <attribute name="new_name" />
+          <order attribute="new_name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="new_sellingprice" />
           <attribute name="new_quantity" />
           <attribute name="new_buyingprice" />
           <attribute name="new_margin" />
-          <attribute name="new_priceperunit" />
-          <attribute name="new_sellingpricee" />
-          <attribute name="new_totalbuyingprice" />
-          <attribute name="new_productname" />
           <attribute name="new_procurementlineid" />
         </entity>
       </fetch>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c7e2432d-ae12-4cb7-8d4f-f474567ee3fc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="bpf_name" select="1" icon="1" preview="1">
+        <row name="result" id="businessprocessflowinstanceid">
+          <cell name="bpf_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_bpf_447dbb8386c34573b1e64db5666d28a1">
+          <attribute name="businessprocessflowinstanceid" />
+          <attribute name="bpf_name" />
+          <attribute name="createdon" />
+          <order attribute="bpf_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Lead to Opportunity Sales Process (Copy)" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

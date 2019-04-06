@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{61a4c932-d775-e211-b420-00155d806600}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" preview="1" icon="1">
+        <row name="result" id="quoteid">
+          <cell name="customerid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statecode" width="100" />
+          <cell name="totalamount" width="100" />
+          <cell name="effectivefrom" width="100" />
+          <cell name="effectiveto" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="createdon" width="100" />
+          <cell name="msdyn_profitability" width="100" disableSorting="1" />
+          <cell name="msdyn_adjustedgrossmargin" width="100" disableSorting="1" />
+          <cell name="msdyn_competitive" width="100" disableSorting="1" />
+          <cell name="msdyn_estimatedbudget" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="quote">
+          <order attribute="customerid" descending="false" />
+          <attribute name="totalamount" />
+          <attribute name="statecode" />
+          <attribute name="effectiveto" />
+          <attribute name="effectivefrom" />
+          <attribute name="createdon" />
+          <attribute name="msdyn_profitability" />
+          <attribute name="msdyn_adjustedgrossmargin" />
+          <attribute name="msdyn_competitive" />
+          <attribute name="msdyn_estimatedbudget" />
+          <attribute name="customerid" />
+          <attribute name="ownerid" />
+          <attribute name="quoteid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>6.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Opportunity Quotes" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays quotes for the opportunity record." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

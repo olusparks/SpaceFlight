@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="new_leadsourceglobal" localizedName="Lead Source" description="Global lead source">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Lead Source" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Global lead source" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="1" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Advertisement" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="2" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Employee Referral" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="3" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="External Referral" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="4" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Partner" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="5" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Public Relations" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="6" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Seminar" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="7" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Trade Show" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="8" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Web" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="9" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Word of Mouth" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="10" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="11" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="LinkedIn" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="12" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Fintech" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="Leads from reliance info systems Fintech event for Nov. 2017" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="13" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="CIC" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="14" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="O365 Workshop" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="15" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Solution Expo" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

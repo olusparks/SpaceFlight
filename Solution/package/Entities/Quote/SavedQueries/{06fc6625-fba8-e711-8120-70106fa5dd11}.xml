@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{06fc6625-fba8-e711-8120-70106fa5dd11}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="quoteid">
+          <cell name="customerid" width="150" />
+          <cell name="quotecustomeridcontactcontactid.emailaddress1" width="150" disableSorting="1" />
+          <cell name="totalamount" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="createdon" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="quote">
+          <attribute name="totalamount" />
+          <attribute name="statecode" />
+          <attribute name="createdon" />
+          <attribute name="customerid" />
+          <attribute name="ownerid" />
+          <order attribute="statecode" descending="false" />
+          <filter type="and">
+            <filter type="and">
+              <condition attribute="statecode" operator="eq" value="2" />
+              <condition attribute="createdon" operator="today" />
+            </filter>
+          </filter>
+          <link-entity name="contact" from="contactid" to="customerid" visible="false" link-type="outer" alias="quotecustomeridcontactcontactid">
+            <attribute name="emailaddress1" />
+          </link-entity>
+          <attribute name="quoteid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Daily Won Quotes by Owner" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

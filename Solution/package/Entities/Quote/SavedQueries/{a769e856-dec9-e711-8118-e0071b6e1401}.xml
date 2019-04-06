@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{a769e856-dec9-e711-8118-e0071b6e1401}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="quoteid">
+          <cell name="quotenumber" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statecode" width="100" />
+          <cell name="totalamount" width="100" />
+          <cell name="customerid" width="150" />
+          <cell name="quotecustomeridcontactcontactid.emailaddress1" width="150" disableSorting="1" />
+          <cell name="createdon" width="150" />
+          <cell name="ownerid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_adjustedgrossmargin" width="100" disableSorting="1" />
+          <cell name="msdyn_competitive" width="100" disableSorting="1" />
+          <cell name="msdyn_estimatedbudget" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="quote">
+          <attribute name="totalamount" />
+          <attribute name="statecode" />
+          <attribute name="createdon" />
+          <attribute name="customerid" />
+          <attribute name="msdyn_adjustedgrossmargin" />
+          <attribute name="msdyn_competitive" />
+          <attribute name="msdyn_estimatedbudget" />
+          <attribute name="quotenumber" />
+          <attribute name="ownerid" />
+          <order attribute="quotenumber" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="2" />
+          </filter>
+          <link-entity name="contact" from="contactid" to="customerid" visible="false" link-type="outer" alias="quotecustomeridcontactcontactid">
+            <attribute name="emailaddress1" />
+          </link-entity>
+          <attribute name="quoteid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Won Quotes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

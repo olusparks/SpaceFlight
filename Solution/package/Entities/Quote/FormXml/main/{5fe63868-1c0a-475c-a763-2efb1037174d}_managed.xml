@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{5fe63868-1c0a-475c-a763-2efb1037174d}</formid>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab name="quoteAnaylsis_tab" id="{a8a9b1d6-46cd-a3ad-45ea-96534ca11e53}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false" ordinalvalue="0">
+          <columns>
+            <column width="50%" id="0" solutionaction="Modified" />
+            <column width="50%" id="1" solutionaction="Modified" />
+            <column width="33%" id="2" solutionaction="Removed" />
+          </columns>
+        </tab>
+        <tab name="Summary_tab" verticallayout="true" id="{0B04E4B1-3339-4288-9FD6-96A1F26E22B9}" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{ffc40bd1-fc44-4067-a48d-94401c18a5c5}" expanded="true" ordinalvalue="1">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section name="quote information" showlabel="false" showbar="false" id="{0196B23E-8DC5-4C2A-B911-FCDE404452C9}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="250" celllabelalignment="Left" celllabelposition="Left" labelid="{8383ef2b-162e-48df-8c25-9f60547bac7a}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{030ba1a1-8b95-a6e5-1293-0936b4c81c11}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10011" solutionaction="Modified">
+                        <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" uniqueid="{8d491c9c-984c-c8aa-0a21-d7a22033b7bd}" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="1">
+              <sections>
+                <section name="description_section" showlabel="false" showbar="false" locklevel="0" id="{db63a003-5a93-8213-a8db-1b2bae85a4c3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="250" celllabelalignment="Left" celllabelposition="Top" labelid="{6b06ff4d-4cab-4579-8586-da1ad7893a95}" ordinalvalue="0" solutionaction="Removed" />
+                <section name="Summary_tab_section_9" showlabel="false" showbar="false" locklevel="0" id="{ac832090-7035-48a0-195a-2500dddcd3de}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="250" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1" solutionaction="Removed" />
+                <section name="shipping information" showlabel="true" showbar="false" id="{1CDD1ABB-4B2E-4A34-9BE9-B7B5324BEBF6}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="250" celllabelalignment="Left" celllabelposition="Left" labelid="{9d49ffcd-5541-49cf-9b50-a39425559148}" visible="false" ordinalvalue="2" solutionaction="Removed" />
+                <section name="addresses" showlabel="false" showbar="false" id="{BF9211DB-F76C-4C84-82D3-F86B27A7B63D}" IsUserDefined="0" labelid="{94d51402-e9be-40ee-911b-b400a347b79c}" columns="1" locklevel="0" labelwidth="250" celllabelalignment="Left" celllabelposition="Left" visible="false" ordinalvalue="3" solutionaction="Removed" />
+                <section name="Summary_tab_section_8" showlabel="false" showbar="false" locklevel="0" id="{10770551-d3aa-868e-4ab8-b1b3ad3d1eb0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0" solutionaction="Added">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c6b9c51d-50b3-7b7a-acc4-dac809cac994}" showlabel="false" rowspan="10" auto="false" colspan="1" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false">
+                          <parameters>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="2">
+              <sections>
+                <section name="Summary_tab_section_8" showlabel="false" showbar="false" locklevel="0" id="{10770551-d3aa-868e-4ab8-b1b3ad3d1eb0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0" solutionaction="Removed" />
+                <section name="Summary_tab_section_9" showlabel="false" showbar="false" locklevel="0" id="{ac832090-7035-48a0-195a-2500dddcd3de}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="250" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0" solutionaction="Added">
+                  <labels>
+                    <label description="BILLING AND PRINT SETUP" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a74914a1-9fd8-442a-947b-199ae358b93c}" showlabel="true" labelid="{c01a422b-f5ae-4a0a-93c7-44d8b6fd87b3}" locklevel="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="billto_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="billto_composite" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13368491-9156-4784-B1B6-4CA90D992F05}" labelid="{42c5d55a-ca18-45e1-98e3-657463db9e84}" locklevel="1" ordinalvalue="10001">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="paymenttermscode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="paymenttermscode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{C5F773CF-5A7B-42E8-9A8D-451B77BE3372}" labelid="{1abcc235-ca9c-4f93-8863-7dc8aab5b79a}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels>
+                          <label description="Sales Currency" languagecode="1033" />
+                        </labels>
+                        <control id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD5625B0-DDA8-4EE2-B13F-B9331E027C8A}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="description_section" showlabel="false" showbar="false" locklevel="0" id="{db63a003-5a93-8213-a8db-1b2bae85a4c3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="250" celllabelalignment="Left" celllabelposition="Top" labelid="{6b06ff4d-4cab-4579-8586-da1ad7893a95}" ordinalvalue="1" solutionaction="Added">
+                  <labels>
+                    <label description="DESCRIPTION" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{13407006-6b61-746d-c99a-317564094a11}" showlabel="true" locklevel="0" rowspan="2" labelid="{bbdc79f9-7bad-4393-9ab6-170c98a53692}" ordinalvalue="10000">
+                        <labels>
+                          <label description="DESCRIPTION" languagecode="1033" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                  </rows>
+                </section>
+                <section name="shipping information" showlabel="true" showbar="false" id="{1CDD1ABB-4B2E-4A34-9BE9-B7B5324BEBF6}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="250" celllabelalignment="Left" celllabelposition="Left" labelid="{9d49ffcd-5541-49cf-9b50-a39425559148}" visible="false" ordinalvalue="2" solutionaction="Added">
+                  <labels>
+                    <label description="SHIPPING INFORMATION" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{22F9B372-05FD-46DA-A947-A847EB3FEE6A}" labelid="{d93e025b-a1b1-4563-ab03-f815c747db31}" ordinalvalue="10000">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="shippingmethodcode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="shippingmethodcode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47409B13-C592-447A-8080-F4B7E10FB4B7}" labelid="{4925581f-346a-4dc4-b31b-c0b6efeb1af1}" ordinalvalue="10001">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="freighttermscode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="freighttermscode" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="addresses" showlabel="false" showbar="false" id="{BF9211DB-F76C-4C84-82D3-F86B27A7B63D}" IsUserDefined="0" labelid="{94d51402-e9be-40ee-911b-b400a347b79c}" columns="1" locklevel="0" labelwidth="250" celllabelalignment="Left" celllabelposition="Left" visible="false" ordinalvalue="3" solutionaction="Added">
+                  <labels>
+                    <label description="ADDRESSES" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2de18d93-6808-4b2e-a661-285b9cd68200}" showlabel="true" labelid="{f5e3ebef-2c68-4681-89f5-5d14a726cf47}" locklevel="0" visible="false" ordinalvalue="10000">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="willcall" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="willcall" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{03431395-4ddd-4712-aaf8-e8251eb07090}" showlabel="true" labelid="{8af735de-ad82-4106-91d6-55d096e73c1f}" locklevel="0" visible="false" ordinalvalue="10001">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="shipto_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="shipto_composite" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="QuoteLinesTab" id="{8d820846-96a1-adac-e222-5506d761c447}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" visible="false" ordinalvalue="2" solutionaction="Modified" />
+        <tab name="profitability_analytics_tab" id="{96c74187-0eee-b824-bd9e-de28a8187103}" IsUserDefined="0" locklevel="0" showlabel="true" visible="false" expanded="true" ordinalvalue="3" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="analyticResultSection" showlabel="true" showbar="true" locklevel="0" id="{864060c1-6182-9025-0a37-da4a35616a60}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="180" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0" solutionaction="Modified">
+                  <rows>
+                    <row>
+                      <cell id="{933cdeb5-20a7-b34b-8328-ee16a4a46abb}" showlabel="true" locklevel="0" visible="false" ordinalvalue="20007" solutionaction="Modified">
+                        <control id="totalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="totalamount" disabled="false" uniqueid="{157d9d5c-b0d6-d083-cb60-bd57a42a894e}" solutionaction="Modified" />
+                      </cell>
+                      <cell id="{3b948506-2e03-eeb3-4e16-0b668bba0ea9}" showlabel="false" locklevel="0" ordinalvalue="20004" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{c3274835-3e16-0c8b-3595-b41202d4c213}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Modified" />
+                      <cell id="{a1be88e3-4cba-4d9a-8e89-421c35b71651}" showlabel="true" locklevel="0" visible="false" ordinalvalue="20010" solutionaction="Modified">
+                        <control id="totalamount_base" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="totalamount_base" disabled="false" uniqueid="{a9ebcab5-9a36-e7e7-5a9b-64b2ae622e4b}" solutionaction="Modified" />
+                      </cell>
+                      <cell id="{d946151e-aab4-d621-1181-3239d9644bd5}" showlabel="true" locklevel="0" ordinalvalue="30005" solutionaction="Modified" />
+                      <cell id="{09e1a421-01b8-1028-a502-36bad7532848}" showlabel="false" ordinalvalue="40007" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{0e005049-4ac4-daeb-219c-8cd16c259395}" showlabel="true" locklevel="0" ordinalvalue="20001" solutionaction="Added">
+                        <labels>
+                          <label description="Total Revenue (Base)" languagecode="1033" />
+                        </labels>
+                        <control id="new_totalamountwithvat_qt_base" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_totalamountwithvat_qt_base" disabled="false" uniqueid="{72372a6d-9dbc-a4cd-bd1a-7c9cbd2be424}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c1937b5-2d09-3593-8574-2a84182a8b3e}" showlabel="false" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{40c3ad4c-5dbe-919a-39a2-0455dc4518ec}" showlabel="false" ordinalvalue="30008" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{380d8055-a62a-c66e-e223-ee5093609e55}" showlabel="false" ordinalvalue="10009" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{c28d372c-aa95-b6dc-603b-90c96959cb15}" showlabel="false" ordinalvalue="30011" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="competive_analysis_tab" id="{3ddd82a0-da53-1197-d974-bb5884367575}" IsUserDefined="0" locklevel="0" showlabel="true" visible="false" expanded="true" ordinalvalue="4">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="Summary_tab_section_10" showlabel="true" showbar="true" locklevel="0" id="{2a684387-a3d9-353d-294e-b44a73a0bc92}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="150" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0" solutionaction="Modified">
+                  <rows>
+                    <row>
+                      <cell id="{27b97cd2-8bd0-c048-3682-165e3328d189}" showlabel="true" locklevel="0" ordinalvalue="20001">
+                        <control id="msdyn_customerbudgetrollup" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_customerbudgetrollup" disabled="false" uniqueid="{9893b7a4-e5c0-0285-3cec-893a674cd064}" solutionaction="Modified" />
+                      </cell>
+                      <cell id="{3e3c2959-d535-abe7-b8c1-01ba65bd93eb}" showlabel="false" userspacer="true" ordinalvalue="30002" solutionaction="Removed" />
+                      <cell id="{a12e8c08-0746-0ae1-1567-a76dc10615b7}" showlabel="false" locklevel="0" ordinalvalue="30002" solutionaction="Modified">
+                        <control id="msdyn_competitive" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_competitive" disabled="true" uniqueid="{d2c935d7-ab47-203a-2b61-dad5562c0083}" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e3432433-d6b8-1a62-8d00-9d0115366bde}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Modified" />
+                      <cell id="{cabe2ee2-141e-036c-3681-bd94d2e88da7}" showlabel="true" locklevel="0" ordinalvalue="20005" solutionaction="Removed" />
+                      <cell id="{32ec95d5-3b41-d644-c5bc-b7a83e93d968}" showlabel="false" userspacer="true" ordinalvalue="30006" solutionaction="Removed" />
+                      <cell id="{b850c348-8594-d59c-1c2b-272c3c181b63}" showlabel="false" ordinalvalue="40007" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{81cd2e3b-d3ec-7533-6845-79cb0008c5b3}" showlabel="false" locklevel="0" ordinalvalue="10006" solutionaction="Modified">
+                        <control id="msdyn_estimatedschedule" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_estimatedschedule" disabled="true" uniqueid="{085b4671-b227-1bbd-b5cd-4982ea0e66ec}" solutionaction="Modified" />
+                      </cell>
+                      <cell id="{8bd586ba-3426-898b-c937-5520667cc550}" showlabel="false" locklevel="0" ordinalvalue="20007" solutionaction="Modified" />
+                      <cell id="{c3523992-37b6-6662-d146-a06bd70b21a5}" showlabel="false" userspacer="true" ordinalvalue="30010" solutionaction="Removed" />
+                      <cell id="{a2a9d4d4-701c-a166-ad9c-82b26e3c1d43}" showlabel="false" ordinalvalue="40011" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{ede8b45a-7180-3408-0d16-1c09e5b1e507}" showlabel="true" locklevel="0" ordinalvalue="20004" solutionaction="Added">
+                        <labels>
+                          <label description="Quoted Value" languagecode="1033" />
+                        </labels>
+                        <control id="new_totalamountwithvat_qt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_totalamountwithvat_qt" disabled="false" uniqueid="{41d0a574-deb8-0c13-59a4-386109b3be7b}" />
+                      </cell>
+                      <cell id="{d53d66de-2d73-c795-3eb5-846a819b63b0}" showlabel="false" ordinalvalue="30005" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{73014ecb-d418-3c8e-143e-cd1beb094be2}" showlabel="false" ordinalvalue="30008" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8724B7C3-1449-4D95-8C51-BBDAE21D5F1A}" celllabelposition="Top" columns="1111" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{c38e6e74-c6cb-a612-edc9-48537b889be0}" showlabel="true" locklevel="0" labelid="{bbfac5aa-eb7d-4a66-9862-cd2b9db1ddf6}" ordinalvalue="10000" solutionaction="Removed" />
+          </row>
+          <row>
+            <cell id="{a9cdeb39-e192-70d3-2c69-440a4a30d8b5}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+              <labels>
+                <label description="Total Amount &amp; VAT" languagecode="1033" />
+              </labels>
+              <control id="header_new_totalamountwithvat_qt" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_totalamountwithvat_qt" disabled="false" uniqueid="{8a38211c-c1b0-5529-0ad3-ab7099b6d91d}" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navDocument" Sequence="3" Area="Info" Id="navDocument" solutionaction="Removed" />
+        </NavBar>
+      </Navigation>
+      <DisplayConditions FallbackForm="true" Order="3" solutionaction="Modified" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Project Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows quote information for Project Service." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

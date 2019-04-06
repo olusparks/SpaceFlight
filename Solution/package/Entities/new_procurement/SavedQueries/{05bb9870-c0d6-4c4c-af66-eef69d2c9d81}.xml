@@ -13,9 +13,9 @@
           <cell name="new_procurementnumber" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="new_name" width="300" />
           <cell name="new_account" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_vendor" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="new_accountmanager" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="statuscode" width="100" />
-          <cell name="new_procurementstatus" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -30,11 +30,11 @@
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="new_vendor" />
           <attribute name="statuscode" />
           <attribute name="new_procurementnumber" />
           <attribute name="new_accountmanager" />
           <attribute name="new_account" />
-          <attribute name="new_procurementstatus" />
           <attribute name="new_procurementid" />
         </entity>
       </fetch>

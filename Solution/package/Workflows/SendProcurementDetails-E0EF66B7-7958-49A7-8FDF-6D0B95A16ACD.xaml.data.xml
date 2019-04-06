@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{e0ef66b7-7958-49a7-8fdf-6d0b95a16acd}" Name="Send Procurement Details">
+  <XamlFileName>/Workflows/SendProcurementDetails-E0EF66B7-7958-49A7-8FDF-6D0B95A16ACD.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>1</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>1</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>new_procurement</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Send Procurement Details" />
+  </LocalizedNames>
+</Workflow>

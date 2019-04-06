@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{3a342bae-c3cf-450a-b145-8a7a8bd1b6a2}</formid>
+    <IntroducedVersion>7.0.0003</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true">
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:MarketingSales/Lead/Lead_main_system_library.js" solutionaction="Added" />
+          </clientincludes>
+        </internalresources>
+      </clientresources>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Join Web Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
