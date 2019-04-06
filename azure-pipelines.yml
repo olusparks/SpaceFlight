@@ -32,7 +32,7 @@ steps:
     Start-Process tools/CoreTools/SolutionPackager.exe `
     -ArgumentList `
       "/action: Pack", `
-      "/zipfile: $(Build.ArtifactStagingDirectory)\packedSolution\$env:SolutionName.zip", `
+      "/zipfile: $(Build.ArtifactStagingDirectory)\packedSolution\$($env:SolutionName)_managed.zip", `
       "/folder: $env:SolutionPath", `
       "/packagetype: Managed" `
     -Wait `
