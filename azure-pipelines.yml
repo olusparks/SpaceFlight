@@ -34,7 +34,7 @@ steps:
       "/action: Pack", `
       "/zipfile: $(Build.ArtifactStagingDirectory)\packedSolution\$env:SolutionName.zip", `
       "/folder: $env:SolutionPath", `
-      "/packagetype: Unmanaged" `
+      "/packagetype: Managed" `
     -Wait `
     -NoNewWindow
   env:
