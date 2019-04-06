@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{a2a56263-ec37-4991-a3b0-e7b37a71d818}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form shownavigationbar="true">
+      <tabs>
+        <tab name="general" verticallayout="true" id="{a9dd8610-71e3-4fe3-93d6-cee419cd614d}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="opportunity information" showlabel="false" showbar="false" id="{2fda664a-00d2-4b22-a68f-24983962bdfe}" IsUserDefined="0" height="auto" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{a90a6223-6904-443c-b40f-de1e8ad44285}" locklevel="0" showlabel="true" colspan="2" ordinalvalue="10000" solutionaction="Modified">
+                        <labels>
+                          <label description="Transaction Title" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                        <control disabled="false" id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" uniqueid="{b0ca5ec2-16c2-d268-db5d-b5dac4ead571}" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{446de635-748f-463e-8be6-a2d0a8d4954b}" locklevel="0" showlabel="true" ordinalvalue="10001" solutionaction="Modified">
+                        <labels>
+                          <label description="Potential Account" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                        <control disabled="false" id="customerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="customerid" uniqueid="{6b0605a8-8228-a469-755d-881854c44c1e}" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3171dc7c-474e-d43d-c352-50673e11bc04}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels>
+                          <label description="Work Order Type" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Product Line Item Details" verticallayout="true" id="{4C3A3EC2-AB96-4c36-9FEA-1CDAF76A2AC7}" IsUserDefined="0" ordinalvalue="1">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section id="{b2bc9513-c724-442f-b025-54312bc530a6}" name="products" height="auto" IsUserDefined="0" showlabel="false" showbar="false" ordinalvalue="1" solutionaction="Modified">
+                  <rows>
+                    <row>
+                      <cell id="{3b01849f-5d77-4f92-b289-e66ea8e270ed}" showlabel="true" colspan="2" auto="true" rowspan="4" ordinalvalue="10000" solutionaction="Modified">
+                        <control id="opportunityproductsGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{3da9b101-0527-48be-0984-815146b6ccce}" solutionaction="Modified">
+                          <parameters>
+                            <ViewId solutionaction="Modified">{1C2429FC-FC2D-E811-80F5-5065F38B74E1}</ViewId>
+                            <IsUserView solutionaction="Added">false</IsUserView>
+                            <ViewIds solutionaction="Added">{1C2429FC-FC2D-E811-80F5-5065F38B74E1}</ViewIds>
+                            <ChartGridMode solutionaction="Added">All</ChartGridMode>
+                            <VisualizationId solutionaction="Added" />
+                            <IsUserChart solutionaction="Added">false</IsUserChart>
+                            <EnableChartPicker solutionaction="Added">true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{25A511F6-4CF0-4c5e-838F-1AEB9BC07ED9}" name="notes and activities" IsUserDefined="0" expanded="false" ordinalvalue="2" solutionaction="Modified" />
+        <tab name="Opportunity Quotes" verticallayout="true" id="{379BB2D1-8E92-406f-AD33-1D479367FD75}" IsUserDefined="0" ordinalvalue="3" />
+        <tab name="administration" id="{4f0d6fd2-1e7d-45ad-9127-0aca662b616c}" IsUserDefined="0" ordinalvalue="4" />
+      </tabs>
+      <header id="{c23f3530-ef08-440c-9b8b-e16aa5864063}" celllabelposition="Top">
+        <rows>
+          <row>
+            <cell id="{c0461474-c12b-4999-1492-2b6788509325}" ordinalvalue="10000">
+              <labels>
+                <label description="Potential Customer" languagecode="1033" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <controlDescriptions solutionaction="Added" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{abbb36d2-f8d9-e711-8122-e0071b6ef5e1}" Name="Check topic keywords" Description="Click to add description">
+  <XamlFileName>/Workflows/Checktopickeywords-ABBB36D2-F8D9-E711-8122-E0071B6EF5E1.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Opportunity</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Check topic keywords" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Click to add description" />
+  </Descriptions>
+  <labels>
+    <steplabels id="{7a436b02-86ce-4748-8169-bbecd115a1b8}">
+      <label languagecode="1033" description="Kindly use the solution keyword in the topic field. e.g. microsoft, cyberoam, sophos etc." />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{dbdc41eb-f8d9-e711-8122-e0071b6ef5e1}">
+      <controltype>1</controltype>
+      <formid>{a837e4a7-01b8-4f82-a475-be9abd67e667}</formid>
+      <scope>1</scope>
+      <controlname>name</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Opportunity</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{dcdc41eb-f8d9-e711-8122-e0071b6ef5e1}">
+      <formid>{a837e4a7-01b8-4f82-a475-be9abd67e667}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Opportunity</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{dddc41eb-f8d9-e711-8122-e0071b6ef5e1}">
+      <controltype>1</controltype>
+      <formid>{a837e4a7-01b8-4f82-a475-be9abd67e667}</formid>
+      <scope>1</scope>
+      <controlname>name</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Opportunity</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{dedc41eb-f8d9-e711-8122-e0071b6ef5e1}">
+      <formid>{a837e4a7-01b8-4f82-a475-be9abd67e667}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Opportunity</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{dfdc41eb-f8d9-e711-8122-e0071b6ef5e1}">
+      <controltype>1</controltype>
+      <formid>{a837e4a7-01b8-4f82-a475-be9abd67e667}</formid>
+      <scope>1</scope>
+      <controlname>name</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Opportunity</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{e0dc41eb-f8d9-e711-8122-e0071b6ef5e1}">
+      <formid>{a837e4a7-01b8-4f82-a475-be9abd67e667}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Opportunity</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{38a21ef8-da5d-4f00-9779-fae8cd94a015}</formid>
+    <IntroducedVersion>1.0.1.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab name="ProjectGeneralTab" id="{6013c999-32ac-a73b-958c-ae9b498832d5}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{a0404d45-e328-49b8-a930-494394076e22}" availableforphone="false" ordinalvalue="0" solutionaction="Modified" />
+        <tab name="ProductGeneralTab" verticallayout="true" id="{a9ca981e-9abe-4c5b-904b-f9bb062e46e7}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false" labelid="{63c0b115-db66-4db4-bdfd-1a33d628afd1}" ordinalvalue="1">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="pricing" showlabel="true" showbar="true" id="{a285b1e6-980b-4229-baf8-2c42b35eb859}" IsUserDefined="0" labelid="{e29308e1-78a1-479c-9e0e-d7100f4abc1d}" columns="11" locklevel="0" labelwidth="250" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell colspan="2" id="{ae91e7a0-3e61-4cae-8caa-a7093099993b}" labelid="{366f3662-dea1-478f-ba9a-3a2426ad40ac}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Modified">
+                        <control id="ispriceoverridden" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ispriceoverridden" uniqueid="{6cd53bd8-3dc4-a52a-5da4-a9ce449c3652}" disabled="false" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aeb453eb-88b7-4621-a058-f52e4d6445ab}" showlabel="false" labelid="{4a8a35ce-e534-449e-834c-8b9957669fc5}" ordinalvalue="20004" solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions solutionaction="Added" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Project Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows the opportunity lines for Project Service." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

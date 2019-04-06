@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{ea021e6f-a7ce-e711-8120-e0071b6ef5e1}" Name="Copy of DisplayCICYear" Description="Display CIC Year field when CIC is selected from lead source.">
+  <XamlFileName>/Workflows/CopyofDisplayCICYear-EA021E6F-A7CE-E711-8120-E0071B6EF5E1.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Lead</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Copy of DisplayCICYear" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Display CIC Year field when CIC is selected from lead source." />
+  </Descriptions>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{eb021e6f-a7ce-e711-8120-e0071b6ef5e1}">
+      <controltype>1</controltype>
+      <formid>{9886ead0-4fcc-4747-9a18-08e7a9a6de71}</formid>
+      <scope>1</scope>
+      <controlname>leadsourcecode</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Lead</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{ec021e6f-a7ce-e711-8120-e0071b6ef5e1}">
+      <formid>{9886ead0-4fcc-4747-9a18-08e7a9a6de71}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Lead</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

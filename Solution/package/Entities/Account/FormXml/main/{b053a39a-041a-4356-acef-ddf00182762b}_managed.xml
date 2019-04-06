@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{b053a39a-041a-4356-acef-ddf00182762b}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_recordwall" id="{e94e6ac4-12db-bc8c-ec81-8b20c5987655}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{1b269530-f7e3-4939-887c-20fba8cafbad}" ordinalvalue="0" solutionaction="Removed" />
+        <tab name="general" verticallayout="true" id="{13b0fbf2-e596-4dc5-919b-7a0aea72598b}" IsUserDefined="0" ordinalvalue="0" solutionaction="Modified" />
+        <tab name="details" id="{e8642bdb-3b0b-4ce4-bcca-646d04e856cb}" IsUserDefined="0" ordinalvalue="1" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="billing information" showlabel="true" showbar="true" id="{0243b19c-f88a-410c-9d90-0862142c56e2}" IsUserDefined="0" columns="11" locklevel="0" labelwidth="180" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{1eefa848-c48d-47c9-8ff4-796403c5a51a}" ordinalvalue="10004">
+                        <labels>
+                          <label description="Product Price List" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="contacts" id="{52c46fc3-c588-42d2-b24a-764536e3ce79}" IsUserDefined="0" ordinalvalue="2" solutionaction="Modified" />
+        <tab name="notes and activities" id="{61710424-A7C1-4db5-9489-788BCDCF267A}" IsUserDefined="0" expanded="false" ordinalvalue="3" solutionaction="Modified" />
+        <tab name="administration" id="{5b8906be-c80f-4c26-8ba2-b07f45cb2936}" IsUserDefined="0" ordinalvalue="4" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="contact methods" showlabel="true" showbar="true" id="{842b89e4-8f3a-46b3-9d23-291eb8685ce9}" IsUserDefined="0" columns="11" locklevel="0" labelwidth="180" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{4c7e3528-1a05-47d8-99c4-383e8ae36f62}" ordinalvalue="20007" solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="service_settings" id="{510b797a-264b-0d02-60d8-3d716b5c0b3d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="5" solutionaction="Modified" />
+      </tabs>
+      <formLibraries>
+        <Library name="msdyn_/ActivityFeeds.Form.js" libraryUniqueId="{4181da4c-6d13-ba3c-c859-be404e4ee2e3}" solutionaction="Removed" />
+      </formLibraries>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

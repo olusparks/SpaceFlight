@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{94647a81-4ad8-42fb-9a8b-1348fdbd8b87}</formid>
+    <IntroducedVersion>4.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true">
+      <tabs>
+        <tab name="Summary" verticallayout="true" id="{f7109214-c3bd-4734-ad5b-4054499a43d6}" IsUserDefined="0" locklevel="0" expanded="true" showlabel="true" labelid="{8bce9904-4337-434a-bb73-be23cd09906d}" ordinalvalue="0">
+          <columns>
+            <column width="28%" id="0">
+              <sections>
+                <section name="Contact" showlabel="true" showbar="false" id="{5693ad37-350f-4f0e-b03a-4212e78c9b6e}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" labelid="{d3deec76-6bc3-47de-a436-5b0df1337474}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell colspan="1" id="{26e6720b-6c8c-4848-a8c1-4b8c8abe59f2}" showlabel="true" locklevel="0" labelid="{fcaa72fe-51b9-4f93-946e-019595a808da}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Transaction title" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                        <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" disabled="false" uniqueid="{8cd2ced6-5053-16e3-155e-078e85c38a4b}" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{deccc6b6-e5ce-6ca2-d683-16a58247e459}" showlabel="true" locklevel="0" labelid="{74483767-2b22-4347-bbac-0a56f2b490a0}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Name" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2698b3ac-6db6-8e50-7cba-3d36600b5072}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Birthday" languagecode="1033" />
+                        </labels>
+                        <control id="new_birthday" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="new_birthday" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="details_tab" id="{9008acae-4b08-4be6-a5d3-aef9155a7f16}" IsUserDefined="0" labelid="{7e3ceb42-c801-448d-b3a2-0ff9b763f977}" ordinalvalue="1">
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section name="lead_information" showlabel="false" showbar="false" id="{494c6aa2-26f3-413f-bcab-dc093d54b82f}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="115" celllabelposition="Left" height="auto" labelid="{4b268814-2f19-49da-8f0a-59cfdf2938e7}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{10b75e6c-54f9-4c13-8850-5b90cad35c6f}" showlabel="true" locklevel="0" rowspan="2" labelid="{90e10b08-8776-4805-99c1-48bd302556ce}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Description" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9769aa55-a1d0-43d7-9d89-9dfccb1efd0d}" showlabel="true" locklevel="0" labelid="{ce0f4d32-0282-4064-b4aa-46e6f111c2f7}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Industry" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="1">
+              <sections>
+                <section name="marketing_information" showlabel="true" showbar="false" locklevel="0" id="{9ae60f89-6507-4cd3-8c5a-c26915a7e315}" IsUserDefined="0" layout="varheight" columns="1" labelwidth="115" celllabelposition="Left" labelid="{236ec551-2f74-4a82-baee-8aa551422c93}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{09513d13-bb7d-43b6-ad5c-9598b82b099e}" labelid="{b43401d7-5b9f-4c52-86eb-2a25729fb928}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Source Campaign" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{a5b3e9c6-2cc7-4273-bd86-12fca3a85e4a}" labelid="{3bc0c964-aeb9-4fd1-8ff4-d4baebed900b}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Last Campaign Date" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{af5017db-93b9-4316-8323-de1d83b41d58}" celllabelposition="Top" columns="1111">
+        <rows>
+          <row>
+            <cell id="{f026324b-8bf6-4273-8c3c-a54975ea8836}" labelid="{2d374cb8-2dad-42b1-9621-ec8205b7d675}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Modified">
+              <control id="header_leadsourcecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="leadsourcecode" uniqueid="{51b9c59b-7377-068c-e113-3316a5530548}" disabled="false" solutionaction="Modified" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navDocument" Area="Info" Id="navDocument" Sequence="9001" solutionaction="Removed" />
+        </NavBar>
+      </Navigation>
+      <controlDescriptions solutionaction="Added" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{2bd3adff-6883-e711-8112-e0071b6ef5e1}</WebResourceId>
+  <Name>new_update_grandtotal_test</Name>
+  <DisplayName>Update Grand Total Test</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/new_update_grandtotal_test2BD3ADFF-6883-E711-8112-E0071B6EF5E1</FileName>
+</WebResource>

@@ -36,7 +36,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
@@ -69,7 +68,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <Format>datetime</Format>
           <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
@@ -103,7 +101,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
@@ -136,7 +133,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <MinValue>1E-10</MinValue>
           <MaxValue>100000000000</MaxValue>
           <Accuracy>10</Accuracy>
@@ -171,7 +167,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <Format></Format>
           <MinValue>-2147483648</MinValue>
           <MaxValue>2147483647</MaxValue>
@@ -205,7 +200,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
@@ -238,7 +232,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <Format>datetime</Format>
           <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
@@ -272,7 +265,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
@@ -307,13 +299,12 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>4</Accuracy>
           <AccuracySource>2</AccuracySource>
           <displaynames>
-            <displayname description="Unit Buy Price" languagecode="1033" />
+            <displayname description="Buying Price" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -342,7 +333,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>4</Accuracy>
@@ -380,7 +370,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <Format></Format>
           <MaxLength>2000</MaxLength>
           <displaynames>
@@ -390,142 +379,83 @@
             <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="new_isproductoverridden">
-          <Type>bit</Type>
-          <Name>new_isproductoverridden</Name>
-          <LogicalName>new_isproductoverridden</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="new_procurementline_new_isproductoverridden">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0</IntroducedVersion>
-            <IsCustomizable>1</IsCustomizable>
-            <displaynames>
-              <displayname description="Select Product" languagecode="1033" />
-            </displaynames>
-            <Descriptions>
-              <Description description="" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="0" Color="#0000ff">
-                <labels>
-                  <label description="Exisiting" languagecode="1033" />
-                </labels>
-              </option>
-              <option value="1" Color="#0000ff">
-                <labels>
-                  <label description="Write-In" languagecode="1033" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
-          <displaynames>
-            <displayname description="Select Product" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="new_margin">
-          <Type>money</Type>
-          <Name>new_margin</Name>
-          <LogicalName>new_margin</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>1</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>-922337203685477</MinValue>
-          <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
-          <AccuracySource>2</AccuracySource>
-          <displaynames>
-            <displayname description="Margin" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Margin price - a subtraction of Total Buy Price from Total Sell Price" languagecode="1033" />
-          </Descriptions>
-          <FormulaDefinitionFileName>/Formulas/new_procurementline-new_margin.xaml</FormulaDefinitionFileName>
-        </attribute>
-        <attribute PhysicalName="new_margin_Base">
-          <Type>money</Type>
-          <Name>new_margin_base</Name>
-          <LogicalName>new_margin_base</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>disabled</ImeMode>
-          <ValidForReadApi>1</ValidForReadApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>1</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>-922337203685477</MinValue>
-          <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
-          <AccuracySource>2</AccuracySource>
-          <CalculationOf>new_margin</CalculationOf>
-          <displaynames>
-            <displayname description="Margin (Base)" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Value of the Margin in base currency." languagecode="1033" />
-          </Descriptions>
-        </attribute>
+        <!-- <attribute PhysicalName="new_margin"> -->
+          <!-- <Type>money</Type> -->
+          <!-- <Name>new_margin</Name> -->
+          <!-- <LogicalName>new_margin</LogicalName> -->
+          <!-- <RequiredLevel>none</RequiredLevel> -->
+          <!-- <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask> -->
+          <!-- <ImeMode>auto</ImeMode> -->
+          <!-- <ValidForUpdateApi>1</ValidForUpdateApi> -->
+          <!-- <ValidForReadApi>1</ValidForReadApi> -->
+          <!-- <ValidForCreateApi>1</ValidForCreateApi> -->
+          <!-- <IsCustomField>1</IsCustomField> -->
+          <!-- <IsAuditEnabled>0</IsAuditEnabled> -->
+          <!-- <IsSecured>0</IsSecured> -->
+          <!-- <IntroducedVersion>1.0.0.0</IntroducedVersion> -->
+          <!-- <IsCustomizable>1</IsCustomizable> -->
+          <!-- <IsRenameable>1</IsRenameable> -->
+          <!-- <CanModifySearchSettings>1</CanModifySearchSettings> -->
+          <!-- <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings> -->
+          <!-- <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings> -->
+          <!-- <SourceType>1</SourceType> -->
+          <!-- <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled> -->
+          <!-- <IsSortableEnabled>0</IsSortableEnabled> -->
+          <!-- <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings> -->
+          <!-- <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings> -->
+          <!-- <IsDataSourceSecret>0</IsDataSourceSecret> -->
+          <!-- <MinValue>-922337203685477</MinValue> -->
+          <!-- <MaxValue>922337203685477</MaxValue> -->
+          <!-- <Accuracy>2</Accuracy> -->
+          <!-- <AccuracySource>2</AccuracySource> -->
+          <!-- <displaynames> -->
+            <!-- <displayname description="Margin" languagecode="1033" /> -->
+          <!-- </displaynames> -->
+          <!-- <Descriptions> -->
+            <!-- <Description description="" languagecode="1033" /> -->
+          <!-- </Descriptions> -->
+          <!-- <FormulaDefinitionFileName>/Formulas/new_procurementline-new_margin.xaml</FormulaDefinitionFileName> -->
+        <!-- </attribute> -->
+        <!-- <attribute PhysicalName="new_margin_Base"> -->
+          <!-- <Type>money</Type> -->
+          <!-- <Name>new_margin_base</Name> -->
+          <!-- <LogicalName>new_margin_base</LogicalName> -->
+          <!-- <RequiredLevel>none</RequiredLevel> -->
+          <!-- <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask> -->
+          <!-- <ImeMode>disabled</ImeMode> -->
+          <!-- <ValidForReadApi>1</ValidForReadApi> -->
+          <!-- <IsCustomField>1</IsCustomField> -->
+          <!-- <IsAuditEnabled>0</IsAuditEnabled> -->
+          <!-- <IsSecured>0</IsSecured> -->
+          <!-- <IntroducedVersion>1.0.0.0</IntroducedVersion> -->
+          <!-- <IsCustomizable>1</IsCustomizable> -->
+          <!-- <IsRenameable>1</IsRenameable> -->
+          <!-- <CanModifySearchSettings>1</CanModifySearchSettings> -->
+          <!-- <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings> -->
+          <!-- <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings> -->
+          <!-- <SourceType>1</SourceType> -->
+          <!-- <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled> -->
+          <!-- <IsSortableEnabled>0</IsSortableEnabled> -->
+          <!-- <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings> -->
+          <!-- <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings> -->
+          <!-- <IsDataSourceSecret>0</IsDataSourceSecret> -->
+          <!-- <MinValue>-922337203685477</MinValue> -->
+          <!-- <MaxValue>922337203685477</MaxValue> -->
+          <!-- <Accuracy>2</Accuracy> -->
+          <!-- <AccuracySource>2</AccuracySource> -->
+          <!-- <CalculationOf>new_margin</CalculationOf> -->
+          <!-- <displaynames> -->
+            <!-- <displayname description="Margin (Base)" languagecode="1033" /> -->
+          <!-- </displaynames> -->
+          <!-- <Descriptions> -->
+            <!-- <Description description="Value of the Margin in base currency." languagecode="1033" /> -->
+          <!-- </Descriptions> -->
+        <!-- </attribute> -->
         <attribute PhysicalName="new_name">
           <Type>nvarchar</Type>
           <Name>new_name</Name>
           <LogicalName>new_name</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
+          <RequiredLevel>required</RequiredLevel>
           <DisplayMask>PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -546,7 +476,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <Format>text</Format>
           <MaxLength>100</MaxLength>
           <Length>200</Length>
@@ -555,41 +484,6 @@
           </displaynames>
           <Descriptions>
             <Description description="The name of the custom entity." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="new_navproductcategory">
-          <Type>picklist</Type>
-          <Name>new_navproductcategory</Name>
-          <LogicalName>new_navproductcategory</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <AppDefaultValue>-1</AppDefaultValue>
-          <OptionSetName>new_navproductcategory</OptionSetName>
-          <displaynames>
-            <displayname description="NAV Product Category" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="new_priceperunit">
@@ -604,7 +498,7 @@
           <ValidForCreateApi>1</ValidForCreateApi>
           <IsCustomField>1</IsCustomField>
           <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>1</IsSecured>
+          <IsSecured>0</IsSecured>
           <IntroducedVersion>1.0.0.0</IntroducedVersion>
           <IsCustomizable>1</IsCustomizable>
           <IsRenameable>1</IsRenameable>
@@ -617,13 +511,12 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>4</Accuracy>
           <AccuracySource>2</AccuracySource>
           <displaynames>
-            <displayname description="Unit Sell Price" languagecode="1033" />
+            <displayname description="Price Per Unit" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
@@ -652,7 +545,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>4</Accuracy>
@@ -690,7 +582,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
@@ -724,7 +615,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <displaynames>
             <displayname description="Procurement Line" languagecode="1033" />
           </displaynames>
@@ -732,82 +622,11 @@
             <Description description="Unique identifier for entity instances" languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="new_productname">
-          <Type>ntext</Type>
-          <Name>new_productname</Name>
-          <LogicalName>new_productname</LogicalName>
-          <RequiredLevel>recommended</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <Format></Format>
-          <MaxLength>4000</MaxLength>
-          <displaynames>
-            <displayname description="Product Name" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="new_productnumber">
-          <Type>nvarchar</Type>
-          <Name>new_productnumber</Name>
-          <LogicalName>new_productnumber</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <Format>text</Format>
-          <MaxLength>200</MaxLength>
-          <Length>400</Length>
-          <displaynames>
-            <displayname description="Product Number" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
-          </Descriptions>
-        </attribute>
         <attribute PhysicalName="new_quantity">
           <Type>decimal</Type>
           <Name>new_quantity</Name>
           <LogicalName>new_quantity</LogicalName>
-          <RequiredLevel>required</RequiredLevel>
+          <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
@@ -828,7 +647,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <MinValue>-100000000000</MinValue>
           <MaxValue>100000000000</MaxValue>
           <Accuracy>2</Accuracy>
@@ -864,7 +682,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <MinValue>0</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>4</Accuracy>
@@ -899,7 +716,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>4</Accuracy>
@@ -912,10 +728,10 @@
             <Description description="Value of the Selling Price in base currency." languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="new_sellingpricee">
+        <attribute PhysicalName="new_total">
           <Type>money</Type>
-          <Name>new_sellingpricee</Name>
-          <LogicalName>new_sellingpricee</LogicalName>
+          <Name>new_total</Name>
+          <LogicalName>new_total</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -923,7 +739,7 @@
           <IsCustomField>1</IsCustomField>
           <IsAuditEnabled>0</IsAuditEnabled>
           <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
           <IsCustomizable>1</IsCustomizable>
           <IsRenameable>1</IsRenameable>
           <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -935,23 +751,21 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
-          <Accuracy>2</Accuracy>
+          <Accuracy>4</Accuracy>
           <AccuracySource>2</AccuracySource>
           <displaynames>
-            <displayname description="Total Sell Price" languagecode="1033" />
+            <displayname description="Total" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
           </Descriptions>
-          <FormulaDefinitionFileName>/Formulas/new_procurementline-new_sellingpricee.xaml</FormulaDefinitionFileName>
         </attribute>
-        <attribute PhysicalName="new_sellingpricee_Base">
+        <attribute PhysicalName="new_total_Base">
           <Type>money</Type>
-          <Name>new_sellingpricee_base</Name>
-          <LogicalName>new_sellingpricee_base</LogicalName>
+          <Name>new_total_base</Name>
+          <LogicalName>new_total_base</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>disabled</ImeMode>
@@ -959,7 +773,7 @@
           <IsCustomField>1</IsCustomField>
           <IsAuditEnabled>0</IsAuditEnabled>
           <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
           <IsCustomizable>1</IsCustomizable>
           <IsRenameable>1</IsRenameable>
           <CanModifySearchSettings>1</CanModifySearchSettings>
@@ -971,124 +785,16 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>-922337203685477</MinValue>
-          <MaxValue>922337203685477</MaxValue>
-          <Accuracy>2</Accuracy>
-          <AccuracySource>2</AccuracySource>
-          <CalculationOf>new_sellingpricee</CalculationOf>
-          <displaynames>
-            <displayname description="Selling Pricee (Base)" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Value of the Selling Pricee in base currency." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="new_totalbuyingprice">
-          <Type>money</Type>
-          <Name>new_totalbuyingprice</Name>
-          <LogicalName>new_totalbuyingprice</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForReadApi>1</ValidForReadApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>1</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>4</Accuracy>
           <AccuracySource>2</AccuracySource>
+          <CalculationOf>new_total</CalculationOf>
           <displaynames>
-            <displayname description="Total Buy Price" languagecode="1033" />
+            <displayname description="Total (Base)" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Total buying price - a result of quantity and unit buy price" languagecode="1033" />
-          </Descriptions>
-          <FormulaDefinitionFileName>/Formulas/new_procurementline-new_totalbuyingprice.xaml</FormulaDefinitionFileName>
-        </attribute>
-        <attribute PhysicalName="new_totalbuyingprice_Base">
-          <Type>money</Type>
-          <Name>new_totalbuyingprice_base</Name>
-          <LogicalName>new_totalbuyingprice_base</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>disabled</ImeMode>
-          <ValidForReadApi>1</ValidForReadApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>1</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>-922337203685477</MinValue>
-          <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
-          <AccuracySource>2</AccuracySource>
-          <CalculationOf>new_totalbuyingprice</CalculationOf>
-          <displaynames>
-            <displayname description="Total Buying Price (Base)" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Value of the Total Buying Price in base currency." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="new_vendor">
-          <Type>lookup</Type>
-          <Name>new_vendor</Name>
-          <LogicalName>new_vendor</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <LookupStyle>single</LookupStyle>
-          <LookupTypes />
-          <displaynames>
-            <displayname description="Vendor" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="" languagecode="1033" />
+            <Description description="Value of the Total in base currency." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="OverriddenCreatedOn">
@@ -1115,7 +821,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <Format>date</Format>
           <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
           <Behavior>1</Behavior>
@@ -1151,7 +856,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <LookupStyle>single</LookupStyle>
           <LookupTypes>
             <LookupType id="00000000-0000-0000-0000-000000000000">8</LookupType>
@@ -1186,7 +890,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
@@ -1219,7 +922,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
@@ -1252,7 +954,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
@@ -1286,7 +987,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <optionset Name="new_procurementline_statecode">
             <OptionSetType>state</OptionSetType>
             <IntroducedVersion>1.0.0.0</IntroducedVersion>
@@ -1342,7 +1042,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <optionset Name="new_procurementline_statuscode">
             <OptionSetType>status</OptionSetType>
             <IntroducedVersion>1.0.0.0</IntroducedVersion>
@@ -1397,7 +1096,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <Format></Format>
           <MinValue>-1</MinValue>
           <MaxValue>2147483647</MaxValue>
@@ -1433,7 +1131,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
@@ -1467,7 +1164,6 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
           <Format></Format>
           <MinValue>-1</MinValue>
           <MaxValue>2147483647</MaxValue>
@@ -1536,8 +1232,7 @@
       <EnforceStateTransitions>0</EnforceStateTransitions>
       <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
       <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
-      <EntityHelpUrl></EntityHelpUrl>
-      <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+      <ChangeTrackingEnabled>0</ChangeTrackingEnabled>
       <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
     </entity>

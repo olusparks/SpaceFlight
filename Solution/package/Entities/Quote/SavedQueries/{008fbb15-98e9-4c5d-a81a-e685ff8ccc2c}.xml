@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{008fbb15-98e9-4c5d-a81a-e685ff8ccc2c}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="quoteid">
+          <cell name="customerid" width="150" />
+          <cell name="name" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statecode" width="100" />
+          <cell name="totalamount" width="100" />
+          <cell name="ownerid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="effectivefrom" width="100" />
+          <cell name="effectiveto" width="100" />
+          <cell name="createdon" width="150" />
+          <cell name="quotenumber" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="quote">
+          <order attribute="quotenumber" descending="false" />
+          <filter type="and">
+            <condition attribute="ownerid" operator="eq-userid" />
+            <filter type="or">
+              <condition attribute="statecode" operator="eq" value="0" />
+              <condition attribute="statecode" operator="eq" value="1" />
+            </filter>
+          </filter>
+          <attribute name="statecode" />
+          <attribute name="totalamount" />
+          <attribute name="createdon" />
+          <attribute name="customerid" />
+          <attribute name="quotenumber" />
+          <attribute name="ownerid" />
+          <attribute name="name" />
+          <attribute name="effectiveto" />
+          <attribute name="effectivefrom" />
+          <attribute name="quoteid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Quotes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

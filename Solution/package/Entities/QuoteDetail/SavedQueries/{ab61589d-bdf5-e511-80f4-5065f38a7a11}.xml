@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{ab61589d-bdf5-e511-80f4-5065f38a7a11}</savedqueryid>
+    <layoutxml>
+      <grid name="quotedetails" jump="" select="1" icon="1" preview="1">
+        <row name="quotedetail" id="quotedetailid" layoutstyle="ProductSubGrid">
+          <cell name="productname" disableMetaDataBinding="1" LabelId="query.product.cell.productname.label" width="90" disableSorting="1" />
+          <cell name="productid" ishidden="1" width="200" disableSorting="1" />
+          <cell name="producttypecode" ishidden="1" width="200" disableSorting="1" />
+          <cell name="parentbundleid" ishidden="1" width="200" disableSorting="1" />
+          <cell name="productdescription" ishidden="1" width="200" disableSorting="1" />
+          <cell name="uomid" width="0" ishidden="1" />
+          <cell name="primaryunit" width="80" disableSorting="1" disableMetaDataBinding="1" LabelId="query.product.cell.unit.label" cellType="Crm.DisplayPrimaryUnit" />
+          <cell name="priceperunit" width="87" disableSorting="1" />
+          <cell name="quantity" width="83" disableSorting="1" />
+          <cell name="extendedamount" width="108" disableSorting="1" />
+          <cell name="suggestions" disableMetaDataBinding="1" width="90" disableSorting="1" LabelId="query.product.cell.productname.suggestions" cellType="Crm.suggestions" />
+          <cell name="isproductoverridden" ishidden="1" />
+          <cell name="sequencenumber" ishidden="1" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch distinct="false" mapping="logical">
+        <entity name="quotedetail">
+          <attribute name="productid" />
+          <attribute name="productdescription" />
+          <attribute name="priceperunit" />
+          <attribute name="quantity" />
+          <attribute name="uomid" />
+          <attribute name="extendedamount" />
+          <attribute name="producttypecode" />
+          <attribute name="parentbundleid" />
+          <attribute name="sequencenumber" />
+          <attribute name="isproductoverridden" />
+          <order attribute="sequencenumber" descending="true" />
+          <attribute name="quotedetailid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quote Product Inline Edit View 2" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays information about the products included in a quote in the detail form of the associated quote record. This view is in the Products side tab." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

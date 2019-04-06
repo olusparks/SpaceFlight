@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_recordwall" id="{e94e6ac4-12db-bc8c-ec81-8b20c5987655}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{43fd1eed-3b38-47a3-bfdf-8949ad2c9075}" ordinalvalue="0" solutionaction="Removed" />
+        <tab name="general" verticallayout="true" id="{9748ec98-3746-40cc-83bf-d15c7363166f}" IsUserDefined="0" ordinalvalue="0" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="name" showlabel="false" showbar="false" id="{90b0776f-2977-4695-9cd4-73bb6c820f88}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{8097efd5-8af7-4944-b7a5-42ece196e23d}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels>
+                          <label description="Middle Name" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b985eccc-2bed-c1a6-bc73-5a27381d8d35}" showlabel="false" ordinalvalue="20011" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{58b5ace8-943d-e4ad-1e98-4ca48330cc8c}" showlabel="true" locklevel="0" ordinalvalue="20011" solutionaction="Added">
+                        <labels>
+                          <label description="Full Name" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="fullname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fullname" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="address" showlabel="true" showbar="true" id="{f2f6f734-1790-402f-8e2a-1eaecbceb9e3}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{5d9808e4-e732-4182-2609-91d138e1e606}" showlabel="true" locklevel="0" ordinalvalue="20007">
+                        <labels>
+                          <label description="Address 1: Latitude" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{21320d91-567c-8812-ee19-6e6c881c7d56}" showlabel="true" locklevel="0" ordinalvalue="20009">
+                        <labels>
+                          <label description="Address 1: Longitude" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="details" id="{cafbf41a-42bf-4665-8562-1e37017eba69}" IsUserDefined="0" ordinalvalue="1" solutionaction="Modified" />
+        <tab name="notes and activities" id="{A6C643C6-E98F-4738-812F-0B7F7FFC80F7}" IsUserDefined="0" expanded="false" ordinalvalue="2" solutionaction="Modified" />
+        <tab name="administration" id="{0dd7233e-247b-4eef-a71b-0185da6d16ad}" IsUserDefined="0" ordinalvalue="3" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="administration_section_6" showlabel="true" showbar="true" locklevel="0" id="{9440482e-9130-0782-ec3b-8d11787b1c12}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="3">
+                  <rows>
+                    <row>
+                      <cell id="{12d14d86-ee31-6ca2-e045-7da515abbd7a}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="IVR Notifications" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell id="{e3a2da8e-5917-82aa-4342-42249015ba78}" showlabel="true" locklevel="0" ordinalvalue="20001">
+                        <labels>
+                          <label description="SMS Notifications" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell id="{3017be9c-68ad-a525-8be3-e213bc5eed54}" showlabel="true" locklevel="0" ordinalvalue="30002">
+                        <labels>
+                          <label description="Glympse Notifications" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{3106e350-875b-4ea1-b0c5-8923ec1b8d2b}" name="conflictstab" group="solutionconflictstab" ordinalvalue="4" solutionaction="Modified" />
+      </tabs>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="msdyn_contact_msdyn_actualfact_ContactCustomer" Sequence="10000" Area="Info" Id="nav_msdyn_contact_msdyn_actualfact_ContactCustomer" Show="false" solutionaction="Removed" />
+          <NavBarByRelationshipItem RelationshipName="msdyn_contact_msdyn_actualfact_ContactVendor" Sequence="10001" Area="Info" Id="nav_msdyn_contact_msdyn_actualfact_ContactVendor" Show="false" solutionaction="Removed" />
+        </NavBar>
+      </Navigation>
+      <formLibraries>
+        <Library name="msdyn_/ActivityFeeds.Form.js" libraryUniqueId="{4181da4c-6d13-ba3c-c859-be404e4ee2e3}" solutionaction="Removed" />
+      </formLibraries>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

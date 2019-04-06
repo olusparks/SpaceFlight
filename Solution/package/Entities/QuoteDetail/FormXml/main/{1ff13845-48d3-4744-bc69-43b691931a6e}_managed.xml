@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{1ff13845-48d3-4744-bc69-43b691931a6e}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="general" verticallayout="true" id="{109982e3-de79-48cc-b9f6-54692e6b3221}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="quote detail information" showlabel="false" showbar="false" id="{b10abd1a-0622-44f0-826b-5d23cc11f17b}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{7c12d37b-71a6-acd6-44ec-4a2dda624560}" showlabel="true" locklevel="0" rowspan="2" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" uniqueid="{d004724c-bc5a-1671-de3a-518d68402266}" />
+                      </cell>
+                      <cell id="{5e70b2d8-ec19-e8e6-b506-8072034ba13e}" showlabel="false" ordinalvalue="20005" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ce1c25db-9841-1eac-7377-38aa7a8173a6}" showlabel="false" ordinalvalue="20006" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="pricing" showlabel="true" showbar="true" id="{c698d298-de24-4df2-9d74-615b58944ef5}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{3d10566c-5123-4623-b2b7-332ceca6a9ef}" showlabel="false" ordinalvalue="20002" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{c4b8fa44-f934-469c-b0e0-a5adc1f19c68}" ordinalvalue="10009" solutionaction="Modified" />
+                      <cell id="{8aeab52e-3c71-44cb-9064-77a988f9ca4d}" showlabel="false" ordinalvalue="20004" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{52aeb14b-3eb3-4301-93d3-ecf8325517a3}" ordinalvalue="10011" solutionaction="Modified">
+                        <control id="quantity" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="quantity" uniqueid="{516ec585-9500-52e4-3d59-0a0053d885c7}" solutionaction="Modified" />
+                      </cell>
+                      <cell id="{cd11057c-eae2-40c9-967f-45ef9d751b74}" showlabel="false" ordinalvalue="20006" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{12eb4313-8f7b-45b3-a4eb-8627d7bab14f}" ordinalvalue="10013" solutionaction="Modified" />
+                      <cell id="{5b37b20a-8aea-45de-86fa-26bbb1393890}" showlabel="false" ordinalvalue="20008" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{f68d6478-2a5d-4343-91c9-317f0763fe2e}" ordinalvalue="10015" solutionaction="Modified" />
+                      <cell id="{3ee1a4d4-b581-4763-b8c5-ca9fce3e5d0c}" showlabel="false" ordinalvalue="20010" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{1afc4de2-7d37-4089-86c0-29e02a68cf82}" ordinalvalue="10017" solutionaction="Modified" />
+                      <cell id="{a3f98f31-569d-4a52-913f-85d21d62f019}" showlabel="false" ordinalvalue="20012" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{78dc2ac8-f0ae-4f0a-94e5-a4a2f8bab441}" ordinalvalue="10019" solutionaction="Modified" />
+                      <cell id="{5cf88a92-43a6-4d92-9ada-543fa9f6ba6c}" ordinalvalue="20014" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{0e2b653a-340d-e171-b890-e5854c6843da}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="new_markup" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="new_markup" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e75997d8-0c2d-1aca-a9b7-21063c42abca}" showlabel="true" locklevel="0" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="new_discountrate" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="new_discountrate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e971ed2e-1b5e-861c-bc1d-d54293294697}" showlabel="true" locklevel="0" ordinalvalue="10007" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="new_calculatedprice" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_calculatedprice" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{427de67b-2b31-67cc-61eb-744c9d779161}" showlabel="false" ordinalvalue="20014" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{840826c8-3a36-dc6b-7359-55c157c018a7}" showlabel="false" ordinalvalue="20016" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{28eb10a9-09e7-4e3b-ad77-452bb169343b}" showlabel="false" ordinalvalue="20018" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d1185dc-1c6c-362e-8b52-c70ec1e38b11}" showlabel="false" ordinalvalue="20020" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation solutionaction="Added">
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions solutionaction="Added" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

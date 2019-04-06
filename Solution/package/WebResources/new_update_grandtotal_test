@@ -1,0 +1,17 @@
+function updateDecimal()
+{
+    var getCustTotalBase = Xrm.Page.getAttribute("new_customtotal_base").getValue();
+    var nairaValue = Xrm.Page.getAttribute("new_customtotalamountbases").getValue();
+    var rate = Xrm.Page.getAttribute("exchangerate").getValue();
+	if (getCustTotalBase != null)
+	{
+		
+		var st = rate / nairaValue;
+		st_new = st.toString();
+		var number = parseFloat(st_new);
+		Xrm.Page.getAttribute("new_customtotalamountbases").setValue(number);
+	
+	}
+    
+
+}

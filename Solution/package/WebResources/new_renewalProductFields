@@ -1,0 +1,6 @@
+function displayField()
+{
+    var getProdCategory = Xrm.Page.getAttribute("new_category").getSelectedOption();
+	alert getProdCategory;
+	
+}

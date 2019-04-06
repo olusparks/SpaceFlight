@@ -64,6 +64,10 @@
     <None Include="bin\coretools\CrmSvcUtil.exe.config" />
     <None Include="bin\coretools\LicenseTerms.docx" />
     <None Include="packages.config" />
+    <None Include="package\WebResources\new_RelianceScripts" />
+    <None Include="package\WebResources\new_renewalProductFields" />
+    <None Include="package\WebResources\new_update_grandtotal" />
+    <None Include="package\WebResources\new_update_grandtotal_test" />
     <None Include="spkl.json" />
     <None Include="spkl\deploy-plugins.bat" />
     <None Include="spkl\deploy-webresources.bat" />
@@ -76,6 +80,132 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Debug\" />
+    <Folder Include="package\PluginAssemblies\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="package\Entities\new_bpf_447dbb8386c34573b1e64db5666d28a1\Formulas\new_bpf_447dbb8386c34573b1e64db5666d28a1-bpf_duration.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\new_bpf_6739ca66f83d49528ed628b7dcd8aab3\Formulas\new_bpf_6739ca66f83d49528ed628b7dcd8aab3-bpf_duration.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\new_procurementline\Formulas\new_procurementline-new_margin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\new_procurement\Formulas\new_procurement-new_margin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\new_procurement\Formulas\new_procurement-new_totalbuying.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\new_procurement\Formulas\new_procurement-new_totalselling.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\Opportunity\Formulas\opportunity-new_totalamountwithvat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\Opportunity\Formulas\opportunity-new_totalamountwithvat_opp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\Opportunity\Formulas\opportunity-new_vat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\Opportunity\Formulas\opportunity-new_vat_opp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\QuoteDetail\Formulas\quotedetail-new_calculatedprice.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\QuoteDetail\Formulas\quotedetail-new_customprice.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\QuoteDetail\Formulas\quotedetail-new_prodsubtotal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\Quote\Formulas\quote-new_calculatevat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\Quote\Formulas\quote-new_customevat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\Quote\Formulas\quote-new_customgrandtotal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\Quote\Formulas\quote-new_customtotal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\Quote\Formulas\quote-new_customtotalamountbases.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\Quote\Formulas\quote-new_grandtotal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\Quote\Formulas\quote-new_totalamountwithvat_qt.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\Quote\Formulas\quote-new_vat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\SalesOrder\Formulas\salesorder-new_totalamountwithvat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\SalesOrder\Formulas\salesorder-new_vat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\ApproveProcurement-71C42376-3E14-4478-886E-41BF2EA32D97.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\Checktopickeywords-ABBB36D2-F8D9-E711-8122-E0071B6EF5E1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\CopyofDisplayCICYear-EA021E6F-A7CE-E711-8120-E0071B6EF5E1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\CyberoamCategory-C7D1F72B-64AE-E711-8119-E0071B6EF5E1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\DepartmentNotification-848FA7F5-6CDE-4903-BC49-744DA71031C1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\DepartmentNotificationforNewLeads-E40FE0C8-CD58-4EE7-82AC-2F0CEFEA359F.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\DepartmentTemplateforClosedOpportunity-7B875D79-CFAC-41FD-92FF-D3E218F6A8FB.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\DepartmentTemplateforOpenOpportunity-646F0DA9-F113-4473-BD29-CF01770DE396.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\DisplayCICYear-27AC6544-A7CE-E711-8120-E0071B6EF5E1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\EnterRuleName-A7C789C0-E7D4-E711-8120-E0071B6EF5E1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\IsApproved-7C26AD3F-0C9E-E811-A967-000D3A38C9F2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\LeadtoOpportunitySalesProcess-919E14D1-6489-4852-ABD0-A63A6ECAAC5D.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\LeadtoOpportunitySalesProcessCopy-447DBB83-86C3-4573-B1E6-4DB5666D28A1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\NotifySalesTeamwhenNoteiscreated-1E51AEB6-14D1-4571-A89C-AE390F2909F9.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\NotifySalesTeamwhenNoteisupdated-7AE43BC6-680D-4ACA-BEBA-DDD6F822D216.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\OpportunitySalesProcessCopy-6739CA66-F83D-4952-8ED6-28B7DCD8AAB3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\RejectProcurement-B74C38EC-F857-468A-84C4-EF0AC2757FCA.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\SendProcurementDetails-E0EF66B7-7958-49A7-8FDF-6D0B95A16ACD.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

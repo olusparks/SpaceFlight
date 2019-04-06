@@ -1,18 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RibbonDiffXml>
   <CustomActions>
-    <HideCustomAction HideActionId="new.Mscrm.Form.quote.Assign.Hide" Location="Mscrm.Form.quote.Assign" />
-    <HideCustomAction HideActionId="new.Mscrm.Form.quote.LookupAddress.Hide" Location="Mscrm.Form.quote.LookupAddress" />
-    <HideCustomAction HideActionId="new.Mscrm.Form.quote.Permissions.Sharing.Hide" Location="Mscrm.Form.quote.Permissions.Sharing" />
     <HideCustomAction HideActionId="new.Mscrm.Form.quote.PrintQuote.Hide" Location="Mscrm.Form.quote.PrintQuote" />
-    <HideCustomAction HideActionId="new.Mscrm.Form.quote.RunScript.Hide" Location="Mscrm.Form.quote.RunScript" />
-    <HideCustomAction HideActionId="new.Mscrm.Form.quote.RunWorkflow.Hide" Location="Mscrm.Form.quote.RunWorkflow" />
-    <HideCustomAction HideActionId="new.Mscrm.Form.quote.SendSelected.Hide" Location="Mscrm.Form.quote.SendSelected" />
-    <CustomAction Id="new.Mscrm.Form.quote.WordTemplate.CustomAction" Location="Mscrm.Form.quote.MainTab.ExportData.Controls._children" Sequence="0">
-      <CommandUIDefinition>
-        <FlyoutAnchor Alt="$Resources:Ribbon.HomepageGrid.Data.WordTemplate.Templates" Command="Mscrm.Form.WordTemplate" Id="Mscrm.Form.quote.WordTemplate" Image16by16="/_imgs/ribbon/WordTemplate_16.png" Image32by32="/_imgs/ribbon/SaveAsWordTemplate_32.png" LabelText="$Resources:Ribbon.HomepageGrid.Data.WordTemplate.Templates" PopulateDynamically="true" PopulateQueryCommand="Mscrm.Form.WordTemplate.Populate.Flyout" PopulateOnlyOnce="true" Sequence="0" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.Data.WordTemplate.Templates" ToolTipDescription="$Resources:Ribbon.Tooltip.WordTemplate" ModernImage="WordTemplates" />
-      </CommandUIDefinition>
-    </CustomAction>
+    <HideCustomAction HideActionId="new.Mscrm.Form.quote.WordTemplate.Hide" Location="Mscrm.Form.quote.WordTemplate" />
+    <HideCustomAction HideActionId="new.Mscrm.HomepageGrid.quote.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.quote.MBPF.ConvertTo" />
     <CustomAction Id="new.quote.Button2.DownloadQuote.CustomAction" Location="Mscrm.Form.quote.MainTab.Save.Controls._children" Sequence="53">
       <CommandUIDefinition>
         <Button Alt="$LocLabels:new.quote.Button2.DownloadQuote.Alt" Command="new.quote.Command0.QuoteDetails" Id="new.quote.Button2.DownloadQuote" Image32by32="$webresource:adx_entitypermission_icon_32x32.png" Image16by16="$webresource:adx_entitypermission_icon_16x16.png" LabelText="$LocLabels:new.quote.Button2.DownloadQuote.LabelText" Sequence="53" TemplateAlias="o1" ToolTipTitle="$LocLabels:new.quote.Button2.DownloadQuote.ToolTipTitle" ToolTipDescription="$LocLabels:new.quote.Button2.DownloadQuote.ToolTipDescription" />
@@ -28,25 +19,9 @@
     <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
   </Templates>
   <CommandDefinitions>
-    <CommandDefinition Id="Mscrm.DeletePrimaryRecord">
-      <EnableRules>
-        <EnableRule Id="Mscrm.FormStateNotNew" />
-        <EnableRule Id="Mscrm.CanDeletePrimary" />
-      </EnableRules>
-      <DisplayRules>
-        <DisplayRule Id="Mscrm.DeletePrimaryEntityPermission" />
-        <DisplayRule Id="Mscrm.CanDeleteQOI" />
-      </DisplayRules>
-      <Actions>
-        <JavaScriptFunction FunctionName="XrmCore.Commands.Delete.deletePrimaryRecord" Library="$webresource:Main_system_library.js">
-          <CrmParameter Value="FirstPrimaryItemId" />
-          <CrmParameter Value="PrimaryEntityTypeName" />
-        </JavaScriptFunction>
-      </Actions>
-    </CommandDefinition>
     <CommandDefinition Id="Mscrm.Form.quote.CreateOrder">
       <EnableRules>
-        <EnableRule Id="new.quote.ActiveState.EnableRule" />
+        <EnableRule Id="new.quote.ActiveOrWonState.EnableRule" />
         <EnableRule Id="Mscrm.QuoteIsActiveOrWon" />
         <EnableRule Id="Mscrm.quote.CanAppendToCustomer" />
         <EnableRule Id="Mscrm.NotOffline" />
@@ -59,27 +34,6 @@
         <JavaScriptFunction FunctionName="acceptQuoteOrCreateOrder" Library="/_static/SFA/quotes/quote.js" />
       </Actions>
     </CommandDefinition>
-    <CommandDefinition Id="Mscrm.Form.WordTemplate">
-      <EnableRules>
-        <EnableRule Id="Mscrm.FormStateNotNew" />
-      </EnableRules>
-      <DisplayRules>
-        <DisplayRule Id="Mscrm.IsWordTemplateUCIFCBEnabled" />
-        <DisplayRule Id="Mscrm.WordTemplatesFCBEnabled" />
-        <DisplayRule Id="Mscrm.HideForTabletExperience" />
-      </DisplayRules>
-      <Actions />
-    </CommandDefinition>
-    <CommandDefinition Id="Mscrm.ReportMenu.Form">
-      <EnableRules>
-        <EnableRule Id="Mscrm.FormStateNotNew" />
-      </EnableRules>
-      <DisplayRules>
-        <DisplayRule Id="Mscrm.ReadReport" />
-        <DisplayRule Id="Mscrm.HideForTabletExperience" />
-      </DisplayRules>
-      <Actions />
-    </CommandDefinition>
     <CommandDefinition Id="new.quote.Command0.QuoteDetails">
       <EnableRules>
         <EnableRule Id="new.quote.ActiveOrWonState.EnableRule" />
@@ -91,7 +45,7 @@
     </CommandDefinition>
     <CommandDefinition Id="new.quote.Command2.Procure">
       <EnableRules>
-        <EnableRule Id="new.quote.WonState.EnableRule" />
+        <EnableRule Id="new.quote.ActiveOrWonState.EnableRule" />
       </EnableRules>
       <DisplayRules />
       <Actions>
@@ -102,67 +56,16 @@
   <RuleDefinitions>
     <TabDisplayRules />
     <DisplayRules>
-      <DisplayRule Id="Mscrm.CanDeleteQOI">
-        <OrRule>
-          <Or>
-            <FormStateRule State="ReadOnly" />
-          </Or>
-          <Or>
-            <FormStateRule State="Existing" />
-          </Or>
-          <Or>
-            <MiscellaneousPrivilegeRule PrivilegeName="QOIOverrideDelete" />
-          </Or>
-        </OrRule>
-      </DisplayRule>
       <DisplayRule Id="Mscrm.CreateOrderPrivilege">
         <EntityPrivilegeRule PrivilegeType="Create" PrivilegeDepth="Basic" EntityName="salesorder" />
       </DisplayRule>
-      <DisplayRule Id="Mscrm.CreatePrimaryEntityPermission">
-        <EntityPrivilegeRule PrivilegeType="Create" PrivilegeDepth="Basic" AppliesTo="PrimaryEntity" />
-      </DisplayRule>
-      <DisplayRule Id="Mscrm.DeletePrimaryEntityPermission">
-        <EntityPrivilegeRule PrivilegeType="Delete" PrivilegeDepth="Basic" AppliesTo="PrimaryEntity" />
-      </DisplayRule>
-      <DisplayRule Id="Mscrm.HideForTabletExperience">
-        <HideForTabletExperienceRule />
-      </DisplayRule>
-      <DisplayRule Id="Mscrm.IsWordTemplateUCIFCBEnabled">
-        <OrRule>
-          <Or>
-            <CommandClientTypeRule Type="Modern" InvertResult="true" />
-          </Or>
-          <Or>
-            <CommandClientTypeRule Type="Modern" />
-          </Or>
-        </OrRule>
-      </DisplayRule>
-      <DisplayRule Id="Mscrm.ReadReport">
-        <EntityPrivilegeRule PrivilegeType="Read" PrivilegeDepth="Basic" EntityName="report" />
-      </DisplayRule>
     </DisplayRules>
     <EnableRules>
-      <EnableRule Id="Mscrm.CanDeletePrimary">
-        <RecordPrivilegeRule PrivilegeType="Delete" AppliesTo="PrimaryEntity" />
-      </EnableRule>
-      <EnableRule Id="Mscrm.FormStateNotNew">
-        <FormStateRule State="Create" InvertResult="true" />
-      </EnableRule>
       <EnableRule Id="Mscrm.NotOffline">
         <CrmOfflineAccessStateRule State="Offline" InvertResult="true" />
       </EnableRule>
       <EnableRule Id="Mscrm.quote.CanAppendToCustomer">
         <CustomRule FunctionName="Sales.CommandBarActions.Instance.canAppendToCustomer" Library="$webresource:Sales/CommandBarActions/SalesCommandBarActions.js" />
-      </EnableRule>
-      <EnableRule Id="Mscrm.QuoteIsActiveOrClosed">
-        <OrRule>
-          <Or>
-            <ValueRule Field="statecode" Value="1" />
-          </Or>
-          <Or>
-            <ValueRule Field="statecode" Value="3" />
-          </Or>
-        </OrRule>
       </EnableRule>
       <EnableRule Id="Mscrm.QuoteIsActiveOrWon">
         <CustomRule FunctionName="isQuoteActiveOrWon" Library="/_static/SFA/quotes/quote.js" />
@@ -180,18 +83,12 @@
           </Or>
         </OrRule>
       </EnableRule>
-      <EnableRule Id="new.quote.ActiveState.EnableRule">
-        <ValueRule Field="statecode" Value="1" />
-      </EnableRule>
-      <EnableRule Id="new.quote.WonState.EnableRule">
-        <ValueRule Field="statecode" Value="2" />
-      </EnableRule>
     </EnableRules>
   </RuleDefinitions>
   <LocLabels>
     <LocLabel Id="new.quote.Button2.DownloadQuote.Alt">
       <Titles>
-        <Title description="Download" languagecode="1033" />
+        <Title description="Download Quote" languagecode="1033" />
       </Titles>
     </LocLabel>
     <LocLabel Id="new.quote.Button2.DownloadQuote.LabelText">
@@ -206,7 +103,7 @@
     </LocLabel>
     <LocLabel Id="new.quote.Button2.DownloadQuote.ToolTipTitle">
       <Titles>
-        <Title description="Download" languagecode="1033" />
+        <Title description="Download Quote" languagecode="1033" />
       </Titles>
     </LocLabel>
     <LocLabel Id="new.quote.Button4.Procure.Alt">

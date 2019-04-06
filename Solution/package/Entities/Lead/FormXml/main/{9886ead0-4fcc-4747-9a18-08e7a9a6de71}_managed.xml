@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{9886ead0-4fcc-4747-9a18-08e7a9a6de71}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="tab_recordwall" id="{e94e6ac4-12db-bc8c-ec81-8b20c5987655}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{74e7680f-a9e5-46a8-b6af-8704cfe86d08}" ordinalvalue="0" solutionaction="Removed" />
+        <tab name="general" verticallayout="true" id="{2c26e8f7-026f-4d3e-9262-6523e9accb2b}" IsUserDefined="0" ordinalvalue="0" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="name" showlabel="false" showbar="false" id="{5a43a4e9-5370-4ee7-9f71-9ef915467f90}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell colspan="2" id="{f5abdb46-bdc6-4196-ab85-352a02d457b1}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Modified">
+                        <labels>
+                          <label description="Transaction title" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                        <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" uniqueid="{12a857c7-2689-4927-b83d-2c133028b68c}" disabled="false" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc72a1b9-01f8-45df-b5f5-0dbc3cada61a}" showlabel="false" ordinalvalue="20014" solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+                <section name="address" showlabel="true" showbar="true" id="{e5d01544-1a3e-481f-803c-59b3fbaa54c9}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{bb9177b7-a507-4fab-ba29-7fbb408c867b}" showlabel="false" ordinalvalue="20007" solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="details" id="{efe71f58-9794-4dd7-a20b-1bd9b76d17fd}" IsUserDefined="0" ordinalvalue="1" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="lead information" showlabel="true" showbar="true" id="{c921553b-9726-4147-9775-62f261cb132f}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{6b8eeaf0-8890-475f-bdde-c2bb82d6239f}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Modified">
+                        <labels>
+                          <label description="Lead Source" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                        <control id="leadsourcecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="leadsourcecode" uniqueid="{64dcb874-3cc3-dda7-11a1-2e2db80389dd}" disabled="false" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{74b92466-ae69-e4e3-2110-e6ec871a0ec5}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="CIC Year" languagecode="1033" />
+                        </labels>
+                        <control id="new_cicyear" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="new_cicyear" disabled="false" uniqueid="{1b8a4c50-76e7-7d37-341e-9630abe79996}" />
+                      </cell>
+                      <cell id="{b4723cca-1ec6-71bd-69e9-ec5ec6dec7e7}" showlabel="false" ordinalvalue="20003" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="notes and activities" id="{6296BEFE-3D2F-40ee-80C7-D84FB71EB13C}" IsUserDefined="0" expanded="false" ordinalvalue="2" solutionaction="Modified" />
+        <tab name="administration" id="{3b298b0f-ce9e-4c1b-846e-f0da12a270c4}" IsUserDefined="0" ordinalvalue="3" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="contact methods" showlabel="true" showbar="true" id="{7fe525d3-3673-4a96-b9b1-ec2b6de424b5}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{be8e18e0-16c9-4bcd-8b22-bf221c6a87fa}" showlabel="false" ordinalvalue="20010" solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+                <section name="marketing information" showlabel="true" showbar="true" locklevel="0" id="{f1ebe00b-8f2d-4622-bceb-f47e2b9219ef}" IsUserDefined="0" layout="varheight" columns="11" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{5d31bb37-cf3c-4b09-90cb-6c48dc056897}" showlabel="false" ordinalvalue="20003" solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="Lead_ActivityPointers" Id="navActivities" Icon="/_imgs/ico_18_act.gif" Sequence="10" Area="Info" solutionaction="Modified">
+            <Titles solutionaction="Added">
+              <Title LCID="1033" Text="Activities" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Lead_ActivityPointers" Id="navActivityHistory" TitleResourceId="Tab_Label_History" Icon="/_imgs/ico_18_history.gif" ViewId="21E2B905-6FDB-470d-8517-AD69B4C01268" Sequence="20" Area="Info" solutionaction="Modified">
+            <Titles solutionaction="Added">
+              <Title LCID="1033" Text="Closed Activities" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas solutionaction="Added">
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries solutionaction="Removed" />
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:MarketingSales/Lead/Lead_main_system_library.js" solutionaction="Added" />
+          </clientincludes>
+        </internalresources>
+      </clientresources>
+      <controlDescriptions solutionaction="Added" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

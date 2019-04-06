@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="new_cicyear" localizedName="CIC Year" description="A list of year for Reliance info systems CIC event">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="CIC Year" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="A list of year for Reliance info systems CIC event" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="1" Color="#0000ff">
+      <labels>
+        <label description="2016" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="2" Color="#0000ff">
+      <labels>
+        <label description="2017" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="3" Color="#0000ff">
+      <labels>
+        <label description="2018" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="4" Color="#0000ff">
+      <labels>
+        <label description="2019" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

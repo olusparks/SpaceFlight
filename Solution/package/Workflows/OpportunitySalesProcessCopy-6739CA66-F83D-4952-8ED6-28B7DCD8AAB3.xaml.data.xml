@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{6739ca66-f83d-4952-8ed6-28b7dcd8aab3}" Name="Opportunity Sales Process (Copy)" Description="This is the default process flow for working on an opportunity.">
+  <XamlFileName>/Workflows/OpportunitySalesProcessCopy-6739CA66-F83D-4952-8ED6-28B7DCD8AAB3.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>new_bpf_6739ca66f83d49528ed628b7dcd8aab3</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Opportunity</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Opportunity Sales Process (Copy)" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="This is the default process flow for working on an opportunity." />
+  </Descriptions>
+  <labels>
+    <steplabels id="{7e2d6fde-ca52-4a65-9dc8-0c846aabef56}">
+      <label languagecode="1033" description="Qualify" />
+    </steplabels>
+    <steplabels id="{89046488-e879-4ed5-9d9c-9191bd12656d}">
+      <label languagecode="1033" description="Identify Account" />
+    </steplabels>
+    <steplabels id="{9447ecd1-edc5-4180-81e1-4ee444512c3b}">
+      <label languagecode="1033" description="Identify Contact" />
+    </steplabels>
+    <steplabels id="{a0bf990f-8ece-4c56-9e20-ee23cca0f97c}">
+      <label languagecode="1033" description="Purchase Timeframe" />
+    </steplabels>
+    <steplabels id="{74bbf119-b640-436c-b971-bc48ae7eb5e1}">
+      <label languagecode="1033" description="Estimated Budget" />
+    </steplabels>
+    <steplabels id="{59508dcd-26e0-4787-8ffe-6b48edc5ecfd}">
+      <label languagecode="1033" description="Commitment Level" />
+    </steplabels>
+    <steplabels id="{ca8356a9-3bdd-4e00-a6e5-0b9bf4e4f196}">
+      <label languagecode="1033" description="Identify Decision Maker" />
+    </steplabels>
+    <steplabels id="{504495bd-5c49-4686-9a3e-ffa0829492b8}">
+      <label languagecode="1033" description="Capture Summary" />
+    </steplabels>
+    <steplabels id="{1959ea44-af67-4c00-b626-27d752e732d7}">
+      <label languagecode="1033" description="Account 1" />
+    </steplabels>
+    <steplabels id="{dc1b3fb8-fdb5-463b-a528-684bd755102e}">
+      <label languagecode="1033" description="Develop" />
+    </steplabels>
+    <steplabels id="{e9a18c25-66fb-434b-8daa-4ce0d0179687}">
+      <label languagecode="1033" description="Customer Need" />
+    </steplabels>
+    <steplabels id="{e00c6318-6f76-458e-a124-0f05c74d5e36}">
+      <label languagecode="1033" description="Proposed Solution" />
+    </steplabels>
+    <steplabels id="{6fa6c04d-83ed-4fc2-b5d3-5b9a362c12b0}">
+      <label languagecode="1033" description="Identify Stakeholders" />
+    </steplabels>
+    <steplabels id="{d583a82c-9f6f-4b35-945b-67f1992988e6}">
+      <label languagecode="1033" description="Identify Competitors" />
+    </steplabels>
+    <steplabels id="{9575fc8e-582e-45a8-aa38-c2c4b4290e74}">
+      <label languagecode="1033" description="Propose" />
+    </steplabels>
+    <steplabels id="{f2fbdb96-7537-4365-ba07-82d187f4d117}">
+      <label languagecode="1033" description="Identify Sales Team" />
+    </steplabels>
+    <steplabels id="{c866ba03-b1a3-468e-b41e-3945c1990190}">
+      <label languagecode="1033" description="Develop Proposal" />
+    </steplabels>
+    <steplabels id="{d710f482-0536-48e2-8e78-2ce2faf7a75e}">
+      <label languagecode="1033" description="Complete Internal Review" />
+    </steplabels>
+    <steplabels id="{d097b112-a9a3-4495-96d4-2bee6e49d3bb}">
+      <label languagecode="1033" description="Present Proposal" />
+    </steplabels>
+    <steplabels id="{0cbd3866-11ab-4d4b-99fa-5b645747186c}">
+      <label languagecode="1033" description="POC Executed" />
+    </steplabels>
+    <steplabels id="{b1c37365-3818-40c9-9145-14a4d084ba8e}">
+      <label languagecode="1033" description="Close" />
+    </steplabels>
+    <steplabels id="{8c6bb789-1216-4803-b047-756f20b75206}">
+      <label languagecode="1033" description="Complete Final Proposal" />
+    </steplabels>
+    <steplabels id="{eb702fc7-3a4b-4a28-a835-69ee92ff1cb3}">
+      <label languagecode="1033" description="Present Final Proposal" />
+    </steplabels>
+    <steplabels id="{7aadb3ce-2a67-45d9-8132-1c75586bcbc2}">
+      <label languagecode="1033" description="Confirm Decision Date" />
+    </steplabels>
+    <steplabels id="{74fdd8b4-a35e-47d6-a89a-e7b70b972762}">
+      <label languagecode="1033" description="Send Thank You" />
+    </steplabels>
+    <steplabels id="{2070d494-ee2f-4551-a577-133d000a63d2}">
+      <label languagecode="1033" description="File De-brief" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers />
+</Workflow>

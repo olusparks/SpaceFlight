@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010013100}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="quoteid">
+          <cell name="customerid" width="150" />
+          <cell name="name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statecode" width="100" />
+          <cell name="totalamount" width="100" />
+          <cell name="ownerid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="effectivefrom" width="100" />
+          <cell name="effectiveto" width="100" />
+          <cell name="createdon" width="150" />
+          <cell name="quotenumber" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="quotecustomeridcontactcontactid.emailaddress1" width="150" disableSorting="1" />
+          <cell name="msdyn_estimatedbudget" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="quote">
+          <attribute name="totalamount" />
+          <order attribute="quotenumber" descending="false" />
+          <attribute name="statecode" />
+          <attribute name="createdon" />
+          <attribute name="customerid" />
+          <link-entity alias="quotecustomeridcontactcontactid" name="contact" from="contactid" to="customerid" link-type="outer" visible="false">
+            <attribute name="emailaddress1" />
+          </link-entity>
+          <attribute name="msdyn_estimatedbudget" />
+          <attribute name="quotenumber" />
+          <attribute name="ownerid" />
+          <attribute name="name" />
+          <attribute name="effectiveto" />
+          <attribute name="effectivefrom" />
+          <attribute name="quoteid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Quotes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

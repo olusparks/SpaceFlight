@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{e3c588ee-8e11-49da-a5fe-3800f3f683de}</formid>
+    <IntroducedVersion>6.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{52babf2f-d598-41df-9754-dfebfc94b670}" name="newOpportunity" locklevel="0" expanded="true" showlabel="false" IsUserDefined="0" labelid="{771117c5-baa1-4013-a4ea-ac5b831c2891}" ordinalvalue="0">
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section id="{08041ef6-f9f8-44b4-b84b-94e0250dcac8}" name="quickOpportunity_column1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelid="{c9bc4a89-6c8e-4caa-9542-23058e106faf}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{219ae953-a7d6-b3e5-571d-d2806b44713a}" showlabel="true" locklevel="0" labelid="{9cf692e3-9b45-4ed6-8045-5212d3eb2c8a}" ordinalvalue="10001">
+                        <control id="parentcontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentcontactid" disabled="false" uniqueid="{95aac397-8b2d-8ac9-b2eb-302b16e01deb}" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5b78d293-803a-ed67-38d4-84d150b2a932}" showlabel="true" locklevel="0" labelid="{bc23a503-67f3-4920-870f-f9f67f011378}" ordinalvalue="10002">
+                        <control id="parentaccountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentaccountid" disabled="false" uniqueid="{b8140c28-7e3c-2ecd-c0a3-548c3265c3c3}" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions solutionaction="Added" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Opportunity" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Default quick create form for Opportunity" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

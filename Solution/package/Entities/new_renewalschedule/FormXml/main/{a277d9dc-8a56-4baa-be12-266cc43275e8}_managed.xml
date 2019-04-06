@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{a277d9dc-8a56-4baa-be12-266cc43275e8}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{1bc0db79-73d8-41fa-b389-8a856ed099c5}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{cb98de65-1ddb-4001-9d95-20b5bfe1f119}" name="{cb98de65-1ddb-4001-9d95-20b5bfe1f119}" columns="1" locklevel="0" labelwidth="160" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{71b41498-e6c1-b5d1-563a-d37b6bb25693}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="new_customername" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_customername" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8b5c1c20-ede1-d00a-0047-c30c2367cd1e}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="new_category" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="new_category" disabled="false" uniqueid="{c275a2b4-c8ce-d836-acb2-9638898d4224}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d95188e-1fb0-46b7-9edb-13f8f78991f2}" showlabel="false" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" uniqueid="{3d61ded9-8dbe-2105-a4e8-099758d183c7}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{31489477-2d81-a41e-adab-48e78a4bcb7c}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Product" languagecode="1033" />
+                        </labels>
+                        <control id="new_products" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="new_products" disabled="false" uniqueid="{16c1c5c2-dbd4-1340-77e8-542840c8372a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1e040322-bb2a-1524-39a1-ec705c3cc645}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="new_serialnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_serialnumber" disabled="false" uniqueid="{05b60028-dcd3-a076-2c41-341a96d8be3d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c42d983e-7010-7dde-7e2d-11dbc6e724c4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="new_licenseactivationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="new_licenseactivationdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d6897cb-56a2-0cab-63d4-17a4c9053517}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="License Duration (in months)" languagecode="1033" />
+                        </labels>
+                        <control id="new_duration" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="new_duration" disabled="false" uniqueid="{7e0557bb-8b58-b9d3-ca4c-73a09e801243}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{25cd48bb-1441-2841-5ee3-2728ab38118a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="License Renewal Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_licenseexpiry" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="new_licenseexpiry" disabled="false" uniqueid="{eae78c04-866b-3dbe-b4e4-eda27b909a45}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{1bc0db79-73d8-41fa-b389-8a856ed099c5}_section_3" showlabel="true" showbar="true" locklevel="0" id="{88e6337c-2075-ab2e-76a6-b916c8b4a22d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="160" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="License Reactivation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b09c729d-3413-a068-d075-638c8284c5d3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="new_licensereactivationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="new_licensereactivationdate" disabled="false" uniqueid="{d342940e-9a72-01e7-b329-dc366497da80}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0283d239-0546-c6e7-bca0-3adabb4b67e3}" showlabel="false" locklevel="0" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="new_invisibledate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="new_invisibledate" disabled="false" uniqueid="{140376a4-48ea-bb24-daad-89c54e268259}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{23c99ad5-a8b4-48c5-86e6-bc22985b8514}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{67064521-c0d2-41ba-9cbe-d30c920963c6}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="new_renewalProductFields" libraryUniqueId="{3d297c79-8dd5-9b1b-5e69-0a5d3a66e7c1}" />
+      </formLibraries>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

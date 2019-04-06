@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{65203cb3-f9a8-e711-8120-70106fa5dd11}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" preview="1" icon="1">
+        <row name="result" id="opportunityid">
+          <cell name="customerid" width="150" />
+          <cell name="statecode" width="50" />
+          <cell name="actualvalue" width="100" />
+          <cell name="actualclosedate" width="125" />
+          <cell name="ownerid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="opportunity">
+          <attribute name="statecode" />
+          <attribute name="customerid" />
+          <attribute name="actualvalue" />
+          <attribute name="actualclosedate" />
+          <attribute name="ownerid" />
+          <order attribute="actualvalue" descending="true" />
+          <filter type="and">
+            <filter type="and">
+              <condition attribute="statecode" operator="eq" value="1" />
+              <condition attribute="createdon" operator="last-seven-days" />
+            </filter>
+          </filter>
+          <attribute name="opportunityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Won Opportunities in Last 7 days by Owner" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -8,7 +8,7 @@
   <IntroducedVersion>1.0</IntroducedVersion>
   <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
   <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
-  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;Dependency componentType="Attribute"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;Dependency componentType="Attribute"&gt;&lt;Attribute attributeId="f7442941-a865-e811-a959-000d3a38cba7" attributeName="new_departmentselected" entityName="lead"/&gt;&lt;Attribute attributeId="4410df22-a865-e811-a959-000d3a38cba7" attributeName="new_interestselected" entityName="lead"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
   <IsCustomizable>1</IsCustomizable>
   <CanBeDeleted>1</CanBeDeleted>
   <IsHidden>0</IsHidden>

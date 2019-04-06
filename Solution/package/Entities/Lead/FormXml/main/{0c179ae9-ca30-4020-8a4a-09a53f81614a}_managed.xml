@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{0c179ae9-ca30-4020-8a4a-09a53f81614a}</formid>
+    <IntroducedVersion>8.1.0010</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true">
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:MarketingSales/Lead/Lead_main_system_library.js" solutionaction="Added" />
+          </clientincludes>
+        </internalresources>
+      </clientresources>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Contact Us Personal Web Form - Japanese" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
