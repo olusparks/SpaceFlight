@@ -59,9 +59,11 @@ steps:
         "Password = $env:ServiceAccountPassword;" + `
         "Url = https://$env:EnvironmentName.crm4.dynamics.com")
 
-    Import-CrmSolution `
+    Import-CrmSolutionAsync `
       -conn $connection `
+      -BlockUntilImportComplete `
       -SolutionFilePath $(Build.ArtifactStagingDirectory)\packedSolution\$($env:SolutionName)_managed.zip
+
   env:
     EnvironmentName: $(environment.name)
     SolutionName: $(solution.name)
